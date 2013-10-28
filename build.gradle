@@ -1,0 +1,9 @@
+
+apply plugin: 'java'
+
+
+dependencies {
+  // todo: find a better way to include sub-project
+  // compile fileTree(dir: '../webstart-utils/build/libs', include: '*.jar')
+  compile project( ':webstart-utils' )
+}

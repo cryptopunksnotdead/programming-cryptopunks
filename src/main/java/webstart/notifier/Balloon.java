@@ -20,8 +20,8 @@ import org.eclipse.swt.widgets.Label;
 import org.eclipse.swt.widgets.Listener;
 import org.eclipse.swt.widgets.Shell;
 
-import swt.utils.ColorCache;
-import swt.utils.FontCache;
+import webstart.utils.ColorCache;
+import webstart.utils.FontCache;
 
 
 
