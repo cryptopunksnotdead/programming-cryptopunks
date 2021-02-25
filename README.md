@@ -12,6 +12,7 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 
 - [Do-It-Yourself (DIY) - Yes, You Can! - Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](01_mint.md)
 - [Statistics, Statistics, Statistics - Calculate Rarity & Popularity By Type, By Accessories, & More - Inside the 10 000 Punk Population](02_attributes.md)
+- [Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers](03_generate.md)
 
 
 To be continued...
