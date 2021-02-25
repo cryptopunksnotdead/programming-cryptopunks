@@ -40,9 +40,9 @@ punks[8219].save( './punk-8219.png')
 
 And voila!
 
-![](i/punk-0000x2.png)
-![](i/punk-2890x2.png)
-![](i/punk-8219x2.png)
+![](i/punk-0000.png)
+![](i/punk-2890.png)
+![](i/punk-8219.png)
 
 
 Let's change the zoom factor:
