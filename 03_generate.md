@@ -161,7 +161,7 @@ with:
 - Cigar (u)
 
 Note: The u/f/m stands for unisex/female/male
-and tells you for what gender the attribute expects.
+and tells you what gender the attribute expects.
 
 
 Let's code the artist known as  `generate_punk` - a method
