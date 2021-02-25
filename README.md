@@ -10,7 +10,7 @@ _Inside Unique Pixel Art on the Blockchain..._
 
 by [Gerald Bauer](https://github.com/geraldb), et al
 
-- [Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](01_mint.md)
+- [Do-It-Yourself (DIY) - Yes, You Can! - Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](01_mint.md)
 - [Statistics, Statistics, Statistics - Calculate Rarity & Popularity By Type, By Accessories, & More - Inside the 10 000 Punk Population](02_attributes.md)
 
 
