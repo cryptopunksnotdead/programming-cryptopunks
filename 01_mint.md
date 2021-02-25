@@ -1,4 +1,4 @@
-# Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom
+# Do-It-Yourself (DIY) - Yes, You Can! - Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom
 
 
 ## Step 0 -  Download the True Official Genuine CryptoPunks™ composite image
