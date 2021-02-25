@@ -59,7 +59,6 @@ punks.zoom = 8   # or use x8
 punks[0].save( './punk-0000x4.png' )
 punks[2890].save( './punk-2890x4.png' )
 punks[8219].save( './punk-8219x4.png')
-
 ```
 
 And x4:
