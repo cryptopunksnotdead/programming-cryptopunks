@@ -1,6 +1,6 @@
 
 Crypto Collectibles Series -
-[Cats](https://github.com/cryptocopycats/programming-cryptokitties) ·
+[Kitties](https://github.com/cryptocopycats/programming-cryptokitties) ·
 [Punks](https://github.com/cryptopunksnotdead/programming-cryptopunks)
 
 
