@@ -22,6 +22,12 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 To be continued...
 
 
+
+## Questions? Comments?
+
+Post them on the [cryptopunks reddit](https://old.reddit.com/r/cryptopunks). Thanks.
+
+
 ## License
 
 ![](https://publicdomainworks.github.io/buttons/zero88x31.png)
@@ -29,7 +35,6 @@ To be continued...
 The Programming CryptoPunks & Copypastas Step-by-Step book / guide
 is dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
-
 
 
 ---
