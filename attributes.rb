@@ -1,3 +1,9 @@
+###
+#  to run use:
+#     ruby ./attributes.rb
+
+
+
 require 'cryptopunks'
 
 punks = Punks::Dataset.read( './punks/*.csv' )

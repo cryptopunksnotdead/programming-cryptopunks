@@ -1,3 +1,8 @@
+###
+#  to run use:
+#     ruby ./mint.rb
+
+
 require 'cryptopunks'
 
 punks = Punks::Image.read( './punks.png' )

@@ -1,3 +1,8 @@
+###
+#  to run use:
+#     ruby ./generate.rb
+
+
 require 'chunky_png'
 
 
