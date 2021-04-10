@@ -1,7 +1,23 @@
 # 10 000 More Punks - Inside the Punk Art Machinery (Continued) - How To Generate Punks, Algorithmically - Paint by Numbers - A New Punk Series
 
+> 9 rare CryptoPunks from the LavraLabs [24×24 pixel] series to 
+> star in our 21st Century Evening Sale this May in New York.
+>
+> All mint numbers under 1k and yes there is a rare Alien! 
+> Punks 2![](i/punk-0002.png), 
+> 532![](i/punk-0532.png), 
+> 58![](i/punk-0058.png), 
+> 30![](i/punk-0030.png), 
+> 635![](i/punk-0635.png), 
+> 602![](i/punk-0602.png), 
+> 768![](i/punk-0768.png), 
+> 603![](i/punk-0603.png), 
+> 757![](i/punk-0757.png). 
+>
+> -- [Christie's, April 2021](https://twitter.com/ChristiesInc/status/1380236081472364550)
 
-The bad news - the formula for the original 10 000 algorithmically generated CryptoPunks by LavraLabs is a secret
+
+The bad news - the formula for the original 10 000 algorithmically generated 24×24 pixel CryptoPunks by LavraLabs is a secret
 (and not included in the published open source code).
 
 
@@ -10,7 +26,7 @@ pixel art generator to get your started with your
 own punk series.
 
 
-Let's convert the original [`pixel art generator`](https://github.com/emirongrr/pixelArt_Generator) machinery.
+Let's convert the [`pixel art generator`](https://github.com/emirongrr/pixelArt_Generator) machinery.
 Let's start with all the parts of a punk:
 
 
