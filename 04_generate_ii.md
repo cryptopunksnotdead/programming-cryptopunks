@@ -1,7 +1,7 @@
 # 10 000 More Punks - Inside the Punk Art Machinery (Continued) - How To Generate Punks, Algorithmically - Paint by Numbers - A New Punk Series
 
 > 9 rare CryptoPunks from the LavraLabs [24×24 pixel] series to 
-> star in our 21st Century Evening Sale this May in New York.
+> star in our 21st Century Evening Sale this May [13th] in New York.
 >
 > All mint numbers under 1k and yes there is a rare Alien! 
 > Punks [2](https://www.larvalabs.com/cryptopunks/details/2)![](i/punk-0002.png), 
@@ -13,6 +13,7 @@
 > [768](https://www.larvalabs.com/cryptopunks/details/768)![](i/punk-0768.png), 
 > [603](https://www.larvalabs.com/cryptopunks/details/603)![](i/punk-0603.png), 
 > [757](https://www.larvalabs.com/cryptopunks/details/757)![](i/punk-0757.png). 
+> [Estimate: $7,000,000-9,000,0000.]
 >
 > -- [Christie's [- The World's Leading Auction House], April 2021](https://twitter.com/ChristiesInc/status/1380236081472364550)
 
