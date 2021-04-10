@@ -14,7 +14,7 @@
 > 603![](i/punk-0603.png), 
 > 757![](i/punk-0757.png). 
 >
-> -- [Christie's, April 2021](https://twitter.com/ChristiesInc/status/1380236081472364550)
+> -- [Christie's [- The World's Leading Auction House], April 2021](https://twitter.com/ChristiesInc/status/1380236081472364550)
 
 
 The bad news - the formula for the original 10 000 algorithmically generated 24×24 pixel CryptoPunks by LavraLabs is a secret
