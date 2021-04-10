@@ -4,15 +4,15 @@
 > star in our 21st Century Evening Sale this May [13th] in New York.
 >
 > All mint numbers under 1k and yes there is a rare Alien! 
-> Punks [2](https://www.larvalabs.com/cryptopunks/details/2)![](i/punk-0002.png), 
-> [532](https://www.larvalabs.com/cryptopunks/details/532)![](i/punk-0532.png), 
-> [58](https://www.larvalabs.com/cryptopunks/details/58)![](i/punk-0058.png), 
-> [30](https://www.larvalabs.com/cryptopunks/details/30)![](i/punk-0030.png), 
-> [635](https://www.larvalabs.com/cryptopunks/details/635)![](i/punk-0635.png), 
-> [602](https://www.larvalabs.com/cryptopunks/details/602)![](i/punk-0602.png), 
-> [768](https://www.larvalabs.com/cryptopunks/details/768)![](i/punk-0768.png), 
-> [603](https://www.larvalabs.com/cryptopunks/details/603)![](i/punk-0603.png), 
-> [757](https://www.larvalabs.com/cryptopunks/details/757)![](i/punk-0757.png). 
+> Punks ![](i/punk-0002.png)[#2](https://www.larvalabs.com/cryptopunks/details/2), 
+> ![](i/punk-0532.png)[#532](https://www.larvalabs.com/cryptopunks/details/532), 
+> ![](i/punk-0058.png)[#58](https://www.larvalabs.com/cryptopunks/details/58), 
+> ![](i/punk-0030.png)[#30](https://www.larvalabs.com/cryptopunks/details/30), 
+> ![](i/punk-0635.png)[#635](https://www.larvalabs.com/cryptopunks/details/635), 
+> ![](i/punk-0602.png)[#602](https://www.larvalabs.com/cryptopunks/details/602), 
+> ![](i/punk-0768.png)[#768](https://www.larvalabs.com/cryptopunks/details/768), 
+> ![](i/punk-0603.png)[#603](https://www.larvalabs.com/cryptopunks/details/603), 
+> ![](i/punk-0757.png)[#757](https://www.larvalabs.com/cryptopunks/details/757). 
 > [Estimate: $7,000,000-9,000,0000.]
 >
 > -- [Christie's [- The World's Leading Auction House], April 2021](https://twitter.com/ChristiesInc/status/1380236081472364550)
