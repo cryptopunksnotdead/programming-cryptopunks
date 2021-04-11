@@ -11,7 +11,7 @@ includes the pixel art and code to generate
 algorithmically punks (and punkettes) with a fresh look.
 
 
-Let's convert the original [`punk_generator.js`](https://github.com/usetech-llc/substrapunks/blob/master/scripts/punk_generator.js) art machinery.
+Let's convert the [`punk_generator`](https://github.com/usetech-llc/substrapunks/blob/master/scripts/punk_generator.js) art machinery.
 Let's start with all the parts of a punk:
 
 
@@ -87,12 +87,6 @@ looking something like:
 │       face1.png
 │       face2.png
 │
-```
-
-![](i/parts/face/face1.png)
-![](i/parts/face/face2.png)
-
-```
 ├───mouth/
 │       mouth1.png
 │       mouth2.png
@@ -101,27 +95,10 @@ looking something like:
 │       mouth5.png
 │       mouth6.png
 │
-```
-
-![](i/parts/mouth/mouth1.png)
-![](i/parts/mouth/mouth2.png)
-![](i/parts/mouth/mouth3.png)
-![](i/parts/mouth/mouth4.png)
-![](i/parts/mouth/mouth5.png)
-![](i/parts/mouth/mouth6.png)
-
-```
 ├───nose/
 │       nose1.png
 │       nose2.png
 │
-```
-
-![](i/parts/nose/nose1.png)
-![](i/parts/nose/nose2.png)
-
-
-```
 ├───eyes/
 │       eyes1.png
 │       eyes2.png
@@ -129,44 +106,18 @@ looking something like:
 │       eyes4.png
 │       eyes5.png
 │
-```
-
-![](i/parts/eyes/eyes1.png)
-![](i/parts/eyes/eyes2.png)
-![](i/parts/eyes/eyes3.png)
-![](i/parts/eyes/eyes4.png)
-![](i/parts/eyes/eyes5.png)
-
-
-```
 ├───ears/
 │       ears1.png
 │       ears2.png
 │       ears3.png
 │       ears4.png
 │
-```
-
-![](i/parts/ears/ears1.png)
-![](i/parts/ears/ears2.png)
-![](i/parts/ears/ears3.png)
-![](i/parts/ears/ears4.png)
-
-```
 ├─── beard/
 │       beard1.png
 │       beard2.png
 │       beard3.png
 │       beard4.png
 │
-```
-
-![](i/parts/beard/beard1.png)
-![](i/parts/beard/beard2.png)
-![](i/parts/beard/beard3.png)
-![](i/parts/beard/beard4.png)
-
-```
 └───hair/
         hair1.png
         hair2.png
@@ -179,6 +130,37 @@ looking something like:
         hair9.png
         hair10.png
 ```
+
+Or an all-together-now sneak preview:
+
+![](i/parts/face/face1.png)
+![](i/parts/face/face2.png)
+
+![](i/parts/mouth/mouth1.png)
+![](i/parts/mouth/mouth2.png)
+![](i/parts/mouth/mouth3.png)
+![](i/parts/mouth/mouth4.png)
+![](i/parts/mouth/mouth5.png)
+![](i/parts/mouth/mouth6.png)
+
+![](i/parts/nose/nose1.png)
+![](i/parts/nose/nose2.png)
+
+![](i/parts/eyes/eyes1.png)
+![](i/parts/eyes/eyes2.png)
+![](i/parts/eyes/eyes3.png)
+![](i/parts/eyes/eyes4.png)
+![](i/parts/eyes/eyes5.png)
+
+![](i/parts/ears/ears1.png)
+![](i/parts/ears/ears2.png)
+![](i/parts/ears/ears3.png)
+![](i/parts/ears/ears4.png)
+
+![](i/parts/beard/beard1.png)
+![](i/parts/beard/beard2.png)
+![](i/parts/beard/beard3.png)
+![](i/parts/beard/beard4.png)
 
 ![](i/parts/hair/hair1.png)
 ![](i/parts/hair/hair2.png)
