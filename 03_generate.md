@@ -255,7 +255,7 @@ and resulting in:
 
 
 How does the machinery work?
-The algo generates an empty 56x56 pixel image / canvas
+The algo generates an empty 56×56 pixel image / canvas
 and than adds - or is that composes -
 one part after the other on top
 all the way from face to hair.

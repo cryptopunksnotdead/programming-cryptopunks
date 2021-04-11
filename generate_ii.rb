@@ -8,14 +8,15 @@ require 'chunky_png'
 
 PARTS = {
   face:     { },
-  hair:     { offset: [94, 5] },
-  glasses:  { offset: [73, 86] },
-  beard:    { offset: [147, 258] },
+  hair:     { offset: [7, 1] },
+  glasses:  { offset: [6, 7] },
+  beard:    { offset: [11, 19] },
 }
 
 
+
 def generate_punk( codes )
-  punk = ChunkyPNG::Image.new( 336, 336, ChunkyPNG::Color::WHITE )
+  punk = ChunkyPNG::Image.new( 24, 24, ChunkyPNG::Color::WHITE )
 
   PARTS.each_with_index do |(key,part),i|
     code  = codes[i]
@@ -41,7 +42,7 @@ codes = [2,3,0,1]
 punk = generate_punk( codes )
 punk.save( "./punk-#{codes.join}.png" )
 
-codes = [3,0,2,2]
+codes = [3,0,1,2]
 punk = generate_punk( codes )
 punk.save( "./punk-#{codes.join}.png" )
 

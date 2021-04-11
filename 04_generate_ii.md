@@ -1,18 +1,18 @@
 # 10 000 More Punks - Inside the Punk Art Machinery (Continued) - How To Generate Punks, Algorithmically - Paint by Numbers - A New Punk Series
 
-> 9 rare CryptoPunks from the LavraLabs [24×24 pixel] series to 
+> 9 rare CryptoPunks from the LavraLabs [24×24 pixel] series to
 > star in our 21st Century Evening Sale this May [13th] in New York.
 >
-> All mint numbers under 1k and yes there is a rare Alien! 
-> Punks ![](i/punk-0002.png)[#2](https://www.larvalabs.com/cryptopunks/details/2), 
-> ![](i/punk-0532.png)[#532](https://www.larvalabs.com/cryptopunks/details/532), 
-> ![](i/punk-0058.png)[#58](https://www.larvalabs.com/cryptopunks/details/58), 
-> ![](i/punk-0030.png)[#30](https://www.larvalabs.com/cryptopunks/details/30), 
-> ![](i/punk-0635.png)[#635](https://www.larvalabs.com/cryptopunks/details/635), 
-> ![](i/punk-0602.png)[#602](https://www.larvalabs.com/cryptopunks/details/602), 
-> ![](i/punk-0768.png)[#768](https://www.larvalabs.com/cryptopunks/details/768), 
-> ![](i/punk-0603.png)[#603](https://www.larvalabs.com/cryptopunks/details/603), 
-> ![](i/punk-0757.png)[#757](https://www.larvalabs.com/cryptopunks/details/757). 
+> All mint numbers under 1k and yes there is a rare Alien!
+> Punks ![](i/punk-0002.png)[#2](https://www.larvalabs.com/cryptopunks/details/2),
+> ![](i/punk-0532.png)[#532](https://www.larvalabs.com/cryptopunks/details/532),
+> ![](i/punk-0058.png)[#58](https://www.larvalabs.com/cryptopunks/details/58),
+> ![](i/punk-0030.png)[#30](https://www.larvalabs.com/cryptopunks/details/30),
+> ![](i/punk-0635.png)[#635](https://www.larvalabs.com/cryptopunks/details/635),
+> ![](i/punk-0602.png)[#602](https://www.larvalabs.com/cryptopunks/details/602),
+> ![](i/punk-0768.png)[#768](https://www.larvalabs.com/cryptopunks/details/768),
+> ![](i/punk-0603.png)[#603](https://www.larvalabs.com/cryptopunks/details/603),
+> ![](i/punk-0757.png)[#757](https://www.larvalabs.com/cryptopunks/details/757).
 > [Estimate: $7,000,000-9,000,0000.]
 >
 > -- [Christie's [- The World's Leading Auction House], April 2021](https://twitter.com/ChristiesInc/status/1380236081472364550)
@@ -34,11 +34,12 @@ Let's start with all the parts of a punk:
 ``` ruby
 PARTS = {
   face:     { },
-  hair:     { offset: [94, 5] },
-  glasses:  { offset: [73, 86] },
-  beard:    { offset: [147, 258] },
+  hair:     { offset: [7, 1] },
+  glasses:  { offset: [6, 7] },
+  beard:    { offset: [11, 19] },
 }
 ```
+
 
 A punk is composed of four parts, that is,
 
@@ -61,33 +62,48 @@ parts_ii/
   │       face1.png
   │       face2.png
   │       face3.png
-  │       face4.png
   ├───hair/
   │       hair1.png
   │       hair2.png
   │       hair3.png
   ├───glasses/
   │       glasses1.png
-  │       glasses2.png
   └───beard/
           beard1.png
           beard2.png
 ```
 
+Or an all-together-now sneak preview:
+
+![](i/parts_ii/face/face1.png)
+![](i/parts_ii/face/face2.png)
+![](i/parts_ii/face/face3.png)
+
+![](i/parts_ii/hair/hair1.png)
+![](i/parts_ii/hair/hair2.png)
+![](i/parts_ii/hair/hair3.png)
+
+![](i/parts_ii/glasses/glasses1.png)
+
+![](i/parts_ii/beard/beard1.png)
+![](i/parts_ii/beard/beard1.png)
+
+
+
 Note: Yes, you can add new variants.
 Only make sure that the image size for the parts
-matches the following formats - only the face is in the 100% full-size 336x336 format:
+matches the following formats - only the face is in the 100% full-size 24×24 format:
 
-- face => 336x336
-- hair => 145x131
-- glasses => 190x109
-- beard => 58x54
+- face => 24×24
+- hair => 10×8
+- glasses => 12×6
+- beard => 3×3
 
-The offset  (see in `PARTS` above e.g. `offset: [94, 5]`)
-tells the starting x,y-coordinates where the part
-will get pasted into the full-size 336x336 punk image
-e.g. for hair it's x=94, y=5,
-for glasses it's x=73, y=86 and so on.
+The offset  (see in `PARTS` above e.g. `offset: [7, 1]`)
+tells the starting x,y-coordinates in pixel where the part
+will get pasted into the full-size 24×24 punk image
+e.g. for hair it's x=7, y=1,
+for glasses it's x=6, y=7 and so on.
 
 
 
@@ -102,7 +118,7 @@ the (optional) part gets skipped.
 ``` ruby
 codes = [1,1,0,0]        # face (1), hair (1), glasses (x), beard (x)
 punk = generate_punk( codes )
-punk.save( "./i/punk-1100.png" )
+punk.save( "./punk-1100.png" )
 ```
 
 
@@ -112,7 +128,7 @@ And here's the magic paint by number art machinery:
 require 'chunky_png'    ## helper library for png images
 
 def generate_punk( codes )
-  punk = ChunkyPNG::Image.new( 336, 336, ChunkyPNG::Color::WHITE )
+  punk = ChunkyPNG::Image.new( 24, 24, ChunkyPNG::Color::WHITE )
 
   PARTS.each_with_index do |(key,part),i|
     code  = codes[i]
@@ -148,7 +164,7 @@ resulting in:
 
 
 How does the machinery work?
-The algo generates an empty 336x336 pixel image / canvas
+The algo generates an empty 24×24 pixel image / canvas
 and than adds - or is that composes -
 one part after the other on top
 all the way from face to beard.
