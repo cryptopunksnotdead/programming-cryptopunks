@@ -52,7 +52,7 @@ The face - the first part - is always required
 and the rest is optional.
 
 For every part there is a matching directory (e.g. `/face`, `/hair`, `/glasses`, etc.) and
-for every attribute there is a matching image with an index number starting at 1 (e.g. `/face/face1.png`, `face/face2.png`, etc.)
+for every variant there is an image with an index number starting at 1 (e.g. `/face/face1.png`, `face/face2.png`, etc.)
 Find a cached copy of all images in the `i/parts_ii` directory -
 looking something like:
 
