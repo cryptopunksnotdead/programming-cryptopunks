@@ -33,13 +33,9 @@ PARTS = {
                         ['Two Earrings',  'u']] },
   beard: { required: false,
            attributes: [['Brown Beard',     'm'],
-                        ['',                'u'],
                         ['Mustache-Beard',  'm'],
-                        ['',                'u'],
                         ['Mustache',        'm'],
-                        ['',                'u'],
-                        ['Regular Beard',   'm'],
-                        ['',                'u']] },
+                        ['Regular Beard',   'm']] },
   hair:  { required: false,
            attributes: [['Up Hair',        'm'],
                         ['Down Hair',      'u'],
@@ -50,18 +46,13 @@ PARTS = {
                         ['Emo Hair',       'u'],
                         ['Thin Hair',      'm'],
                         ['Bald',           'm'],
-                        ['Blonde Hair',    'f'],
-                        ['Caret Hair',     'f'],
-                        ['Pony Tails'      'f']] },
-  access: { required: false,
-            attributes: [['Cigar',        'u'],
-                         ['Pipe',         'u']] }
-}
+                        ['Blonde Hair',    'f']] }
+ }
 
 
 
 def generate_punk( codes )
-  punk = ChunkyPNG::Image.new( 560, 560, ChunkyPNG::Color::WHITE )
+  punk = ChunkyPNG::Image.new( 56, 56, ChunkyPNG::Color::WHITE )
 
   PARTS.each_with_index do |(key,part),i|
     code  = codes[i]
@@ -79,10 +70,13 @@ def generate_punk( codes )
 end
 
 
-codes = [2, 2, 2, 3, 1, 0, 10, 1]
+codes = [2, 2, 2, 3, 1, 0, 10]
 generate_punk( codes ).save( "./punk-0000.png" )
 
-codes = [1, 5, 2, 3, 1, 1, 5, 1]
+puts "---"
+
+codes = [1, 5, 2, 3, 1, 1, 5]
 generate_punk( codes ).save( "./punk-0001.png" )
 
 
+puts "bye"

@@ -1,12 +1,13 @@
 # Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers
 
 
-The bad news - the formula for the original 10 000 algorithmically generated CryptoPunks by LavraLabs is a secret
+The bad news - the formula for the original 10 000 algorithmically generated 24×24 CryptoPunks by LavraLabs is a secret
 (and not included in the published open source code).
 
-The good news - the CryptoPunks remake on the Polkadot blockchain
+The good news - the "high-definition" 56×56 CryptoPunks remake
+on the Polkadot blockchain
 built with Substra(te) ("SubtraPunks") by Usetech
-includes the art and code to generate
+includes the pixel art and code to generate
 algorithmically punks (and punkettes) with a fresh look.
 
 
@@ -42,13 +43,9 @@ PARTS = {
                         ['Two Earrings',  'u']] },
   beard: { required: false,
            attributes: [['Brown Beard',     'm'],
-                        ['',                'u'],
                         ['Mustache-Beard',  'm'],
-                        ['',                'u'],
                         ['Mustache',        'm'],
-                        ['',                'u'],
-                        ['Regular Beard',   'm'],
-                        ['',                'u']] },
+                        ['Regular Beard',   'm']] },
   hair:  { required: false,
            attributes: [['Up Hair',        'm'],
                         ['Down Hair',      'u'],
@@ -61,14 +58,11 @@ PARTS = {
                         ['Bald',           'm'],
                         ['Blonde Hair',    'f'],
                         ['Caret Hair',     'f'],
-                        ['Pony Tails'      'f']] },
-  access: { required: false,
-            attributes: [['Cigar',        'u'],
-                         ['Pipe',         'u']] }
+                        ['Pony Tails'      'f']] }
 }
 ```
 
-A punk is composed of eight parts, that is,
+A punk is composed of seven parts, that is,
 
 - Face
 - Mouth
@@ -77,10 +71,9 @@ A punk is composed of eight parts, that is,
 - Ears
 - Beard
 - Hair
-- Accessoire
 
 The first five parts are always required
-and the last three optional.
+and the last two optional.
 
 
 For every part there is a matching directory (e.g. `/face`, `/mouth`, `/nose`, etc.) and
@@ -90,10 +83,35 @@ looking something like:
 
 ```
 /parts
-├─── access/
-│       access1.png
-│       access2.png
+├───face/
+│       face1.png
+│       face2.png
 │
+```
+
+![](i/parts/face/face1.png)
+![](i/parts/face/face2.png)
+
+```
+├───mouth/
+│       mouth1.png
+│       mouth2.png
+│       mouth3.png
+│       mouth4.png
+│       mouth5.png
+│       mouth6.png
+│
+```
+
+![](i/parts/mouth/mouth1.png)
+![](i/parts/mouth/mouth2.png)
+![](i/parts/mouth/mouth3.png)
+![](i/parts/mouth/mouth4.png)
+![](i/parts/mouth/mouth5.png)
+![](i/parts/mouth/mouth6.png)
+
+
+```
 ├─── beard/
 │       beard1.png
 │       beard2.png
@@ -135,14 +153,6 @@ looking something like:
 │       hair11.png
 │       hair12.png
 │
-├───mouth/
-│       mouth1.png
-│       mouth2.png
-│       mouth3.png
-│       mouth4.png
-│       mouth5.png
-│       mouth6.png
-│
 └───nose/
         nose1.png
         nose2.png
@@ -158,7 +168,6 @@ with:
 - Nose Ring (u)
 - Sun Glasses (u)
 - Blonde Hair (f)
-- Cigar (u)
 
 Note: The u/f/m stands for unisex/female/male
 and tells you what gender the attribute expects.
@@ -172,7 +181,7 @@ the (optional) part gets skipped.
 
 
 ``` ruby
-codes = [2, 2, 2, 3, 1, 0, 10, 1]
+codes = [2, 2, 2, 3, 1, 0, 10]
 punk = generate_punk( codes )
 punk.save( './punk-0000.png' )
 ```
@@ -185,7 +194,7 @@ require 'chunky_png'    ## helper library for png images
 
 
 def generate_punk( codes )
-  punk = ChunkyPNG::Image.new( 560, 560, ChunkyPNG::Color::WHITE )
+  punk = ChunkyPNG::Image.new( 56, 56, ChunkyPNG::Color::WHITE )
 
   PARTS.each_with_index do |(key,part),i|
     code  = codes[i]
@@ -209,7 +218,7 @@ end
 Let's try for real:
 
 ``` ruby
-codes = [2, 2, 2, 3, 1, 0, 10, 1]
+codes = [2, 2, 2, 3, 1, 0, 10]
 punk = generate_punk( codes )
 punk.save( './punk-0000.png' )
 ```
@@ -221,30 +230,26 @@ mouth2 - Red Lipstick (f)
 nose2 - Nose Ring (u)
 eyes3 - Sun Glasses (u)
 hair10 - Blonde Hair (f)
-access1 - Cigar (u)
 ```
 
 
 and resulting in:
 
-![](i/gen/punk-0000x4.png)
+![](i/gen/punk-0000.png)
 
-
-
-Note: By default the image size is 560x560 pixel.
 
 How does the machinery work?
-The algo generates an empty 560x560 pixel image / canvas
+The algo generates an empty 56x56 pixel image / canvas
 and than adds - or is that composes -
 one part after the other on top
-all the way from face to accessoire.
+all the way from face to hair.
 That's all the magic.
 
 
 Let's generate another punk.
 
 ``` ruby
-codes = [1, 5, 2, 3, 1, 1, 5, 1]
+codes = [1, 5, 2, 3, 1, 1, 5]
 generate_punk( codes ).save( './punk-0001.png' )
 ```
 
@@ -256,12 +261,11 @@ nose2 - Nose Ring (u)
 eyes3 - Sun Glasses (u)
 beard1 - Brown Beard (m)
 hair5 - Orange Hair (u)
-access1 - Cigar (u)
 ```
 
 and resulting in:
 
-![](i/gen/punk-0001x4.png)
+![](i/gen/punk-0001.png)
 
 
 
