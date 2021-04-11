@@ -9,7 +9,12 @@ shrink 560x560 to 56x56 (assuming a pixel size of 10x)
 note: the following parts do NOT fit the 56x56 (10x) formula
 and got removed for now (fix later if possible - why? why not?)
 
-
+FAIL 56x56 - 10x true pixel art
+- x - access/access1
+- x - access/access2
+- auto-fix: ears
+- x - hair/hair11
+- x - hair/hair12
 
 also removed the all-transparent (empty) beard parts for now
 

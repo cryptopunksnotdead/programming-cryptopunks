@@ -110,24 +110,18 @@ looking something like:
 ![](i/parts/mouth/mouth5.png)
 ![](i/parts/mouth/mouth6.png)
 
+```
+├───nose/
+│       nose1.png
+│       nose2.png
+│
+```
+
+![](i/parts/nose/nose1.png)
+![](i/parts/nose/nose2.png)
+
 
 ```
-├─── beard/
-│       beard1.png
-│       beard2.png
-│       beard3.png
-│       beard4.png
-│       beard5.png
-│       beard6.png
-│       beard7.png
-│       beard8.png
-│
-├───ears/
-│       ears1.png
-│       ears2.png
-│       ears3.png
-│       ears4.png
-│
 ├───eyes/
 │       eyes1.png
 │       eyes2.png
@@ -135,28 +129,68 @@ looking something like:
 │       eyes4.png
 │       eyes5.png
 │
-├───face/
-│       face1.png
-│       face2.png
-│
-├───hair/
-│       hair1.png
-│       hair2.png
-│       hair3.png
-│       hair4.png
-│       hair5.png
-│       hair6.png
-│       hair7.png
-│       hair8.png
-│       hair9.png
-│       hair10.png
-│       hair11.png
-│       hair12.png
-│
-└───nose/
-        nose1.png
-        nose2.png
 ```
+
+![](i/parts/eyes/eyes1.png)
+![](i/parts/eyes/eyes2.png)
+![](i/parts/eyes/eyes3.png)
+![](i/parts/eyes/eyes4.png)
+![](i/parts/eyes/eyes5.png)
+
+
+```
+├───ears/
+│       ears1.png
+│       ears2.png
+│       ears3.png
+│       ears4.png
+│
+```
+
+![](i/parts/ears/ears1.png)
+![](i/parts/ears/ears2.png)
+![](i/parts/ears/ears3.png)
+![](i/parts/ears/ears4.png)
+
+```
+├─── beard/
+│       beard1.png
+│       beard2.png
+│       beard3.png
+│       beard4.png
+│
+```
+
+![](i/parts/beard/beard1.png)
+![](i/parts/beard/beard2.png)
+![](i/parts/beard/beard3.png)
+![](i/parts/beard/beard4.png)
+
+```
+└───hair/
+        hair1.png
+        hair2.png
+        hair3.png
+        hair4.png
+        hair5.png
+        hair6.png
+        hair7.png
+        hair8.png
+        hair9.png
+        hair10.png
+```
+
+![](i/parts/hair/hair1.png)
+![](i/parts/hair/hair2.png)
+![](i/parts/hair/hair3.png)
+![](i/parts/hair/hair4.png)
+![](i/parts/hair/hair5.png)
+![](i/parts/hair/hair6.png)
+![](i/parts/hair/hair7.png)
+![](i/parts/hair/hair8.png)
+![](i/parts/hair/hair9.png)
+![](i/parts/hair/hair10.png)
+
 
 
 
