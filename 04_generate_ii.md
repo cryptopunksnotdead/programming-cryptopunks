@@ -86,7 +86,7 @@ Or an all-together-now sneak preview:
 ![](i/parts_ii/glasses/glasses1.png)
 
 ![](i/parts_ii/beard/beard1.png)
-![](i/parts_ii/beard/beard1.png)
+![](i/parts_ii/beard/beard2.png)
 
 
 
@@ -188,14 +188,14 @@ resulting in:
 And let's generate another punk.
 
 ``` ruby
-codes = [3,0,2,2]       # face (3), hair (x), glasses (2), beard (2)
+codes = [3,0,1,2]       # face (3), hair (x), glasses (1), beard (2)
 punk = generate_punk( codes )
 punk.save( "./punk-#{codes.join}.png" )
 ```
 
 resulting in:
 
-![](i/gen_ii/punk-3022.png)
+![](i/gen_ii/punk-3012.png)
 
 
 
