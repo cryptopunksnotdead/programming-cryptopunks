@@ -206,11 +206,11 @@ punk.save( './punk-0000.png' )
 And here's the magic paint by number art machinery:
 
 ``` ruby
-require 'chunky_png'    ## helper library for png images
+require 'pixelart'    ## helper library for pixel art images (in .png)
 
 
 def generate_punk( codes )
-  punk = ChunkyPNG::Image.new( 56, 56, ChunkyPNG::Color::WHITE )
+  punk = Pixelart::Image.new( 56, 56 )
 
   PARTS.each_with_index do |(key,part),i|
     code  = codes[i]
@@ -222,8 +222,8 @@ def generate_punk( codes )
 
       ## compose parts on top (from face to accessoire)
       path = "./i/parts/#{key}/#{key}#{code}.png"
-      part = ChunkyPNG::Image.from_file( path )
-      punk.compose!( part, 0, 0 )
+      part = Pixelart::Image.read( path )
+      punk.compose!( part )
     end
   end
 
@@ -248,10 +248,18 @@ eyes3 - Sun Glasses (u)
 hair10 - Blonde Hair (f)
 ```
 
+and let's add a 3x zoom factor:
 
-and resulting in:
+``` ruby
+punk3x = punk.zoom( 3 )
+punk3x.save( './punk-0000x3.png' )
+```
+
+resulting in:
 
 ![](i/gen/punk-0000.png)
+![](i/gen/punk-0000x3.png)
+
 
 
 How does the machinery work?
@@ -266,7 +274,9 @@ Let's generate another punk.
 
 ``` ruby
 codes = [1, 5, 2, 3, 1, 1, 5]
-generate_punk( codes ).save( './punk-0001.png' )
+punk = generate_punk( codes )
+punk.save( './punk-0001.png' )
+punk.zoom( 3 ).save( './punk-0001x3.png' )
 ```
 
 printing:
@@ -282,6 +292,7 @@ hair5 - Orange Hair (u)
 and resulting in:
 
 ![](i/gen/punk-0001.png)
+![](i/gen/punk-0001x3.png)
 
 
 
