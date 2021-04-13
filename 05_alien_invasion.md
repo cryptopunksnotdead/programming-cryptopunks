@@ -74,7 +74,7 @@ and hsl - hue/saturation/lightness color schemes
 with alpha channel (for transparency):
 
 ``` ruby
-punks.pixels.uniq.each_with_index do |color, i|
+punk.pixels.uniq.each_with_index do |color, i|
   hex = Pixelart::Color.to_hex( color )   # rgba in hex (string format)
   hsl = Pixelart::Color.to_hsl( color )
   print "[#{i}]  "
@@ -150,6 +150,7 @@ ids.each do |id|
 
      new_punk = punk.change_colors( color_map )
      new_punk.save( "./punk-#{name}_#{hue}.png")
+     new_punk.zoom( 3 ).save( "./punk-#{name}_#{hue}x3.png")
   end
 end
 ```
@@ -250,6 +251,100 @@ Voila! The alien invasion army!
 ![](i/punk-6089_300.png)
 ![](i/punk-7523_300.png)
 ![](i/punk-7804_300.png)
+
+
+And in 3x zoom factor:
+
+
+![](i/punk-0635_180x3.png)
+![](i/punk-2890_180x3.png)
+![](i/punk-3100_180x3.png)
+![](i/punk-3443_180x3.png)
+![](i/punk-5822_180x3.png)
+![](i/punk-5905_180x3.png)
+![](i/punk-6089_180x3.png)
+![](i/punk-7523_180x3.png)
+![](i/punk-7804_180x3.png)
+
+![](i/punk-0635_150x3.png)
+![](i/punk-2890_150x3.png)
+![](i/punk-3100_150x3.png)
+![](i/punk-3443_150x3.png)
+![](i/punk-5822_150x3.png)
+![](i/punk-5905_150x3.png)
+![](i/punk-6089_150x3.png)
+![](i/punk-7523_150x3.png)
+![](i/punk-7804_150x3.png)
+
+![](i/punk-0635_120x3.png)
+![](i/punk-2890_120x3.png)
+![](i/punk-3100_120x3.png)
+![](i/punk-3443_120x3.png)
+![](i/punk-5822_120x3.png)
+![](i/punk-5905_120x3.png)
+![](i/punk-6089_120x3.png)
+![](i/punk-7523_120x3.png)
+![](i/punk-7804_120x3.png)
+
+![](i/punk-0635_90x3.png)
+![](i/punk-2890_90x3.png)
+![](i/punk-3100_90x3.png)
+![](i/punk-3443_90x3.png)
+![](i/punk-5822_90x3.png)
+![](i/punk-5905_90x3.png)
+![](i/punk-6089_90x3.png)
+![](i/punk-7523_90x3.png)
+![](i/punk-7804_90x3.png)
+
+![](i/punk-0635_60x3.png)
+![](i/punk-2890_60x3.png)
+![](i/punk-3100_60x3.png)
+![](i/punk-3443_60x3.png)
+![](i/punk-5822_60x3.png)
+![](i/punk-5905_60x3.png)
+![](i/punk-6089_60x3.png)
+![](i/punk-7523_60x3.png)
+![](i/punk-7804_60x3.png)
+
+![](i/punk-0635_30x3.png)
+![](i/punk-2890_30x3.png)
+![](i/punk-3100_30x3.png)
+![](i/punk-3443_30x3.png)
+![](i/punk-5822_30x3.png)
+![](i/punk-5905_30x3.png)
+![](i/punk-6089_30x3.png)
+![](i/punk-7523_30x3.png)
+![](i/punk-7804_30x3.png)
+
+![](i/punk-0635_0x3.png)
+![](i/punk-2890_0x3.png)
+![](i/punk-3100_0x3.png)
+![](i/punk-3443_0x3.png)
+![](i/punk-5822_0x3.png)
+![](i/punk-5905_0x3.png)
+![](i/punk-6089_0x3.png)
+![](i/punk-7523_0x3.png)
+![](i/punk-7804_0x3.png)
+
+![](i/punk-0635_330x3.png)
+![](i/punk-2890_330x3.png)
+![](i/punk-3100_330x3.png)
+![](i/punk-3443_330x3.png)
+![](i/punk-5822_330x3.png)
+![](i/punk-5905_330x3.png)
+![](i/punk-6089_330x3.png)
+![](i/punk-7523_330x3.png)
+![](i/punk-7804_330x3.png)
+
+![](i/punk-0635_300x3.png)
+![](i/punk-2890_300x3.png)
+![](i/punk-3100_300x3.png)
+![](i/punk-3443_300x3.png)
+![](i/punk-5822_300x3.png)
+![](i/punk-5905_300x3.png)
+![](i/punk-6089_300x3.png)
+![](i/punk-7523_300x3.png)
+![](i/punk-7804_300x3.png)
 
 
 
