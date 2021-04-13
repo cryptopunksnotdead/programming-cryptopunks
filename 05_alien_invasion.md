@@ -8,7 +8,16 @@ in cyan color exist on earth
 out of a total collection of 10 000
 [with a certificate of ownership in the `CryptoPunksMarket` blockchain contract state storage].
 
-Let's mint the alien line-up:
+Let's mint the alien line-up, that is, 
+punk [#635](https://www.larvalabs.com/cryptopunks/details/635), 
+[#2890](https://www.larvalabs.com/cryptopunks/details/2890), 
+[#3100](https://www.larvalabs.com/cryptopunks/details/3100), 
+[#3443](https://www.larvalabs.com/cryptopunks/details/3443), 
+[#5822](https://www.larvalabs.com/cryptopunks/details/5822), 
+[#5905](https://www.larvalabs.com/cryptopunks/details/5905), 
+[#6089](https://www.larvalabs.com/cryptopunks/details/6089), 
+[#7523](https://www.larvalabs.com/cryptopunks/details/7523), and 
+[#7804](https://www.larvalabs.com/cryptopunks/details/7804):
 
 
 ``` ruby
