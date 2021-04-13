@@ -98,19 +98,18 @@ resulting in:
 ```
 
 The color 0, that is, `#00000000` is the transparent color -
-the fourth elment in rgba `00` or hsla `0` is the alpha channel
- - the opacity from
+the fourth elment in rgba `00` or hsla `0` is the alpha channel - the opacity from
 `0` (fully transparent) to `255` (fully opaque).
 
 The color 1, that is, `#000000ff` is black -
 it's `#00 00 00` or `rgb(0,0,0)`
 with the alpha channel set to `ff` (fully opaque)
-or `rgba(0,0,0,255)`
+or `rgba(0,0,0,255)`.
 
 The color 3, that is, `#ffffffff` is white -
 it's `#ff ff ff` or `rgb(255,255,255)`
 with the alpha channel set to `ff` (fully opaque)
-or `rgb(255,255,255,255)`
+or `rgb(255,255,255,255)`.
 
 
 That finally gets us to the three colors with
@@ -136,7 +135,6 @@ orange (30°), red (0°), fuchsia (°330), and, magenta (°300).
 
 ``` ruby
 ids = [635, 2890, 3100, 3443, 5822, 5905, 6089, 7523, 7804]
-
 ids.each do |id|
   name = '%04d' % id
   punk = Pixelart::Image.read( "./punk-#{name}.png" )
@@ -203,6 +201,60 @@ Voila! The alien invasion army!
 ![](i/punk-7523_90.png)
 ![](i/punk-7804_90.png)
 
+![](i/punk-0635_60.png)
+![](i/punk-2890_60.png)
+![](i/punk-3100_60.png)
+![](i/punk-3443_60.png)
+![](i/punk-5822_60.png)
+![](i/punk-5905_60.png)
+![](i/punk-6089_60.png)
+![](i/punk-7523_60.png)
+![](i/punk-7804_60.png)
+
+![](i/punk-0635_30.png)
+![](i/punk-2890_30.png)
+![](i/punk-3100_30.png)
+![](i/punk-3443_30.png)
+![](i/punk-5822_30.png)
+![](i/punk-5905_30.png)
+![](i/punk-6089_30.png)
+![](i/punk-7523_30.png)
+![](i/punk-7804_30.png)
+
+![](i/punk-0635_0.png)
+![](i/punk-2890_0.png)
+![](i/punk-3100_0.png)
+![](i/punk-3443_0.png)
+![](i/punk-5822_0.png)
+![](i/punk-5905_0.png)
+![](i/punk-6089_0.png)
+![](i/punk-7523_0.png)
+![](i/punk-7804_0.png)
+
+![](i/punk-0635_330.png)
+![](i/punk-2890_330.png)
+![](i/punk-3100_330.png)
+![](i/punk-3443_330.png)
+![](i/punk-5822_330.png)
+![](i/punk-5905_330.png)
+![](i/punk-6089_330.png)
+![](i/punk-7523_330.png)
+![](i/punk-7804_330.png)
+
+![](i/punk-0635_300.png)
+![](i/punk-2890_300.png)
+![](i/punk-3100_300.png)
+![](i/punk-3443_300.png)
+![](i/punk-5822_300.png)
+![](i/punk-5905_300.png)
+![](i/punk-6089_300.png)
+![](i/punk-7523_300.png)
+![](i/punk-7804_300.png)
+
+
+
+What's your favorite color? What's your offer bid?
+(Hint: Right-click and download the 24×24 pixel art image for free).
 
 
 
