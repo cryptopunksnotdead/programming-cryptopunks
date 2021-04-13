@@ -48,7 +48,7 @@ in cyan color.
 
 
 
-In cyan color? Let's look at all the colors in use in
+In cyan color? Let's look at all the colors in use in the
 24×24 pixel art.
 
 ``` ruby
@@ -109,7 +109,7 @@ or `rgba(0,0,0,255)`.
 The color 3, that is, `#ffffffff` is white -
 it's `#ff ff ff` or `rgb(255,255,255)`
 with the alpha channel set to `ff` (fully opaque)
-or `rgb(255,255,255,255)`.
+or `rgba(255,255,255,255)`.
 
 
 That finally gets us to the three colors with
