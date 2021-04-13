@@ -5,7 +5,7 @@ Crypto collectibles are all about rarity - the more rare the punk type the more 
 
 Let's check if the theory holds up. Only nine super rare aliens
 in cyan color exist on earth
-out-of a total collection of 10 000
+out of a total collection of 10 000
 [with a certificate of ownership in the `CryptoPunksMarket` blockchain contract state storage].
 
 Let's mint the alien line-up:
@@ -16,7 +16,7 @@ require 'cryptopunks'
 
 punks = Punks::Image.read( './punks.png' )
 
-ids = [635, 2890, 3100, 3443, 5882, 5905, 6089, 7523, 7804]
+ids = [635, 2890, 3100, 3443, 5822, 5905, 6089, 7523, 7804]
 ids.each do |id|
   name = '%04d' % id
   punks[id].save( "./punk-#{name}.png" )
@@ -29,7 +29,7 @@ Voila!
 ![](i/punk-2890.png)
 ![](i/punk-3100.png)
 ![](i/punk-3443.png)
-![](i/punk-5882.png)
+![](i/punk-5822.png)
 ![](i/punk-5905.png)
 ![](i/punk-6089.png)
 ![](i/punk-7523.png)
@@ -43,7 +43,7 @@ The highest ever punk price, that is, $7.5 millions
 as of March 11, 2021 - goes to...
 
 
-Yes, it's ![](i/punk-3100.png) [punk #3100](https://www.larvalabs.com/cryptopunks/details/3100) - the blue-white headband wearing alien
+Yes, it's punk ![](i/punk-3100.png) [#3100](https://www.larvalabs.com/cryptopunks/details/3100) - the blue-white headband wearing alien
 in cyan color.
 
 
@@ -135,7 +135,7 @@ orange (30°), red (0°), fuchsia (°330), and, magenta (°300).
 
 
 ``` ruby
-ids = [635, 2890, 3100, 3443, 5882, 5905, 6089, 7523, 7804]
+ids = [635, 2890, 3100, 3443, 5822, 5905, 6089, 7523, 7804]
 
 ids.each do |id|
   name = '%04d' % id
@@ -167,7 +167,7 @@ Voila! The alien invasion army!
 ![](i/punk-2890_180.png)
 ![](i/punk-3100_180.png)
 ![](i/punk-3443_180.png)
-![](i/punk-5882_180.png)
+![](i/punk-5822_180.png)
 ![](i/punk-5905_180.png)
 ![](i/punk-6089_180.png)
 ![](i/punk-7523_180.png)
@@ -177,7 +177,7 @@ Voila! The alien invasion army!
 ![](i/punk-2890_150.png)
 ![](i/punk-3100_150.png)
 ![](i/punk-3443_150.png)
-![](i/punk-5882_150.png)
+![](i/punk-5822_150.png)
 ![](i/punk-5905_150.png)
 ![](i/punk-6089_150.png)
 ![](i/punk-7523_150.png)
@@ -187,20 +187,28 @@ Voila! The alien invasion army!
 ![](i/punk-2890_120.png)
 ![](i/punk-3100_120.png)
 ![](i/punk-3443_120.png)
-![](i/punk-5882_120.png)
+![](i/punk-5822_120.png)
 ![](i/punk-5905_120.png)
 ![](i/punk-6089_120.png)
 ![](i/punk-7523_120.png)
 ![](i/punk-7804_120.png)
 
-
+![](i/punk-0635_90.png)
+![](i/punk-2890_90.png)
+![](i/punk-3100_90.png)
+![](i/punk-3443_90.png)
+![](i/punk-5822_90.png)
+![](i/punk-5905_90.png)
+![](i/punk-6089_90.png)
+![](i/punk-7523_90.png)
+![](i/punk-7804_90.png)
 
 
 
 
 Now ask yourself - if you can mint any alien in any color for free anytime - what's your price target for
 the "super rare"
- blue-white headband wearing alien
+ blue-white headband wearing alien ![](i/punk-3100.png)
 in cyan color for 2022?  Is it zero or ten millions?
 
 

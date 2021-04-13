@@ -8,7 +8,7 @@ require 'cryptopunks'
 
 punks = Punks::Image.read( './punks.png' )
 
-ids = [635, 2890, 3100, 3443, 5882, 5905, 6089, 7523, 7804]
+ids = [635, 2890, 3100, 3443, 5822, 5905, 6089, 7523, 7804]
 ids.each do |id|
   name = '%04d' % id
   punks[id].save( "./i/punk-#{name}.png" )
@@ -52,7 +52,7 @@ def change_colors( img, color_map )
 end
 
 
-ids = [2890, 7804, 3100]
+ids = [635, 2890, 3100, 3443, 5822, 5905, 6089, 7523, 7804]
 ids.each do |id|
   name = '%04d' % id
   img = ChunkyPNG::Image.from_file( "./i/punk-#{name}.png" )
