@@ -135,6 +135,9 @@ If you look up 180° -
 that's cyan (a greenish-blue) primary color.
 
 
+![](i/color-wheel-hsl.png)
+
+
 So what?  Let's start
 the alien invasion from mars.
 Let's mint little 24×24 extraterrestrials (E.T.s)
