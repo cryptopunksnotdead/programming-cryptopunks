@@ -44,7 +44,7 @@ Sold? What's your bid?
 
 Let's have a closer looksie at
 the Christie's Nine line-up
-in the original Larva Labs 24 x 24 pixel series design.
+in the original Larva Labs 24 x 24 pixel design series.
 Let's mint a fresh copy:
 
 
@@ -84,7 +84,7 @@ Whatever. Fuck the establishment.
 Let's generate some freebie punks.
 
 
-Let's change the color to black and white or
+Let's change the color to black & white or
 more scientifically known as 8-bit grayscale, that is,
 256 shades of gray
 starting with black (`0x000000`)
@@ -111,7 +111,7 @@ end
 ```
 
 
-Voila!
+Voila! The Black & White Series.
 
 ![](i/punk-0002_bw.png)
 ![](i/punk-0532_bw.png)
@@ -135,7 +135,7 @@ Voila!
 
 
 
-How does the black and white magic work?
+How does the black & white magic work?
 Let's look at the colors
 of punk #2 before and after
 using the `show_colors` helper
@@ -171,7 +171,7 @@ puts "before:"
 show_colors( punk )
 
 punk_bw = punk.grayscale
-puts "==> after:"
+puts "after:"
 show_colors( punk_bw )
 ```
 
@@ -199,7 +199,119 @@ and
   [5]    3 pixel(s) - #2d2d2dff / rgb( 45  45  45) - hsla(  0°   0%  18% 255) - 8-BIT GRAYSCALE #45
 ```
 
-See the black and white difference?
+See the black & white difference?
+In the rgb (red/green/blue) color scheme
+all colors are now between
+`rgb(0 0 0)` and `rgb(255 255 255)` with
+every rgb triplet having equal values
+and in the hsl (hue/saturation/lightness) color scheme
+the hue is now always 0° degree
+and the saturation is 0% resulting in
+8-bit grayscale, that is,
+256 shades of gray
+starting with black (`0x000000`)
+and ending with white (`0xffffff`).
+
+
+Now having an 8-bit color palette, that is 256 colors
+from 0 to 255 lets us
+swap the colors with a different 8-bit color palette.
+Let's start with the ye olde' sepia
+that is in the real world a chemical process
+but in the digital a special effect for
+an old fashioned and aged vintage foto look.
+
+
+![](i/palette_sepia.png)
+
+
+Let's try:
+
+``` ruby
+palette_sepia = Pixelart::Palette8bit::SEPIA
+
+ids = [2, 532, 58, 30, 635, 602, 768, 603, 757]
+ids.each do |id|
+  name = '%04d' % id
+  punk = Pixelart::Image.read( "./punk-#{name}.png" )
+
+  punk_sepia = punk.change_palette8bit( palette_sepia )
+  punk_sepia.save( "./punk-#{name}_sepia.png" )
+  punk_sepia.scale( 4 ).save( "./punk-#{name}_sepia4x.png" )
+end
+```
+
+
+Voila! The Ye Olde' Sepia Vintage Series.
+
+![](i/punk-0002_sepia.png)
+![](i/punk-0532_sepia.png)
+![](i/punk-0058_sepia.png)
+![](i/punk-0030_sepia.png)
+![](i/punk-0635_sepia.png)
+![](i/punk-0602_sepia.png)
+![](i/punk-0768_sepia.png)
+![](i/punk-0603_sepia.png)
+![](i/punk-0757_sepia.png)
+
+![](i/punk-0002_sepia4x.png)
+![](i/punk-0532_sepia4x.png)
+![](i/punk-0058_sepia4x.png)
+![](i/punk-0030_sepia4x.png)
+![](i/punk-0635_sepia4x.png)
+![](i/punk-0602_sepia4x.png)
+![](i/punk-0768_sepia4x.png)
+![](i/punk-0603_sepia4x.png)
+![](i/punk-0757_sepia4x.png)
+
+
+
+
+What's next? Let's bring back colors!
+
+![](i/palette_blue.png)
+
+Let's try a blue theme:
+
+``` ruby
+palette_blue = Pixelart::Palette8bit::BLUE
+
+ids = [2, 532, 58, 30, 635, 602, 768, 603, 757]
+ids.each do |id|
+  name = '%04d' % id
+  punk = Pixelart::Image.read( "./punk-#{name}.png" )
+
+  punk_blue = punk.change_palette8bit( palette_blue )
+  punk_blue.save( "./punk-#{name}_blue.png" )
+  punk_blue.scale( 4 ).save( "./punk-#{name}_blue4x.png" )
+end
+```
+
+
+Voila! The Blue Series.
+
+![](i/punk-0002_blue.png)
+![](i/punk-0532_blue.png)
+![](i/punk-0058_blue.png)
+![](i/punk-0030_blue.png)
+![](i/punk-0635_blue.png)
+![](i/punk-0602_blue.png)
+![](i/punk-0768_blue.png)
+![](i/punk-0603_blue.png)
+![](i/punk-0757_blue.png)
+
+![](i/punk-0002_blue4x.png)
+![](i/punk-0532_blue4x.png)
+![](i/punk-0058_blue4x.png)
+![](i/punk-0030_blue4x.png)
+![](i/punk-0635_blue4x.png)
+![](i/punk-0602_blue4x.png)
+![](i/punk-0768_blue4x.png)
+![](i/punk-0603_blue4x.png)
+![](i/punk-0757_blue4x.png)
+
+
+
 
 
 
