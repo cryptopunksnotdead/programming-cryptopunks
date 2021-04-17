@@ -179,24 +179,24 @@ resulting in:
 
 ```
 6 color(s):
-  [0]  326 pixel(s) - #00000000 / rgb(  0   0   0) - hsla(  0°   0%   0%   0) - TRANSPARENT
-  [1]  165 pixel(s) - #000000ff / rgb(  0   0   0) - hsla(  0°   0%   0% 255) - BLACK
-  [2]   76 pixel(s) - #dbb180ff / rgb(219 177 128) - hsla( 32°  56%  68% 255)
-  [3]    4 pixel(s) - #a66e2cff / rgb(166 110  44) - hsla( 32°  58%  41% 255)
-  [4]    2 pixel(s) - #d29d60ff / rgb(210 157  96) - hsla( 32°  56%  60% 255)
-  [5]    3 pixel(s) - #711010ff / rgb(113  16  16) - hsla(  0°  75%  25% 255)
+  [0]  326 pixel(s) - #000000 / rgb(  0   0   0) - hsl(  0°   0%   0%) - α(  0%) - TRANSPARENT
+  [1]  165 pixel(s) - #000000 / rgb(  0   0   0) - hsl(  0°   0%   0%)           - BLACK
+  [2]   76 pixel(s) - #dbb180 / rgb(219 177 128) - hsl( 32°  56%  68%) 
+  [3]    4 pixel(s) - #a66e2c / rgb(166 110  44) - hsl( 32°  58%  41%) 
+  [4]    2 pixel(s) - #d29d60 / rgb(210 157  96) - hsl( 32°  56%  60%) 
+  [5]    3 pixel(s) - #711010 / rgb(113  16  16) - hsl(  0°  75%  25%)
 ```
 
 and
 
 ```
 6 color(s):
-  [0]  326 pixel(s) - #00000000 / rgb(  0   0   0) - hsla(  0°   0%   0%   0) - TRANSPARENT
-  [1]  165 pixel(s) - #000000ff / rgb(  0   0   0) - hsla(  0°   0%   0% 255) - BLACK
-  [2]   76 pixel(s) - #b8b8b8ff / rgb(184 184 184) - hsla(  0°   0%  72% 255) - 8-BIT GRAYSCALE #184
-  [3]    4 pixel(s) - #787878ff / rgb(120 120 120) - hsla(  0°   0%  47% 255) - 8-BIT GRAYSCALE #120
-  [4]    2 pixel(s) - #a6a6a6ff / rgb(166 166 166) - hsla(  0°   0%  65% 255) - 8-BIT GRAYSCALE #166
-  [5]    3 pixel(s) - #2d2d2dff / rgb( 45  45  45) - hsla(  0°   0%  18% 255) - 8-BIT GRAYSCALE #45
+  [0]  326 pixel(s) - #000000 / rgb(  0   0   0) - hsl(  0°   0%   0%) - α(  0%) - TRANSPARENT
+  [1]  165 pixel(s) - #000000 / rgb(  0   0   0) - hsl(  0°   0%   0%)           - BLACK
+  [2]   76 pixel(s) - #b8b8b8 / rgb(184 184 184) - hsl(  0°   0%  72%)           - 8-BIT GRAYSCALE #184
+  [3]    4 pixel(s) - #787878 / rgb(120 120 120) - hsl(  0°   0%  47%)           - 8-BIT GRAYSCALE #120
+  [4]    2 pixel(s) - #a6a6a6 / rgb(166 166 166) - hsl(  0°   0%  65%)           - 8-BIT GRAYSCALE #166
+  [5]    3 pixel(s) - #2d2d2d / rgb( 45  45  45) - hsl(  0°   0%  18%)           - 8-BIT GRAYSCALE #45
 ```
 
 See the black & white difference?
