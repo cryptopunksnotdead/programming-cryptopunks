@@ -215,7 +215,7 @@ and ending with white (`0xffffff`).
 
 Now having an 8-bit color palette, that is 256 colors
 from 0 to 255 lets us
-swap the colors with a different 8-bit color palette.
+swap the colors with different 8-bit color palettes.
 Let's start with the ye olde' sepia
 that is in the real world a chemical process
 but in the digital a special effect for
@@ -312,16 +312,48 @@ Voila! The Blue Series.
 
 
 
+And to wrap up let's go futuristic.
+
+![](i/palette_false.png)
 
 
+Let's try a false color palette:
 
+``` ruby
+palette_false = Pixelart::Palette8bit::FALSE
 
+ids = [2, 532, 58, 30, 635, 602, 768, 603, 757]
+ids.each do |id|
+  name = '%04d' % id
+  punk = Pixelart::Image.read( "./punk-#{name}.png" )
 
+  punk_false = punk.change_palette8bit( palette_false )
+  punk_false.save( "./punk-#{name}_false.png" )
+  punk_false.scale( 4 ).save( "./punk-#{name}_false4x.png" )
+end
+```
 
+Voila! The Futuristic False Color Series.
 
+![](i/punk-0002_false.png)
+![](i/punk-0532_false.png)
+![](i/punk-0058_false.png)
+![](i/punk-0030_false.png)
+![](i/punk-0635_false.png)
+![](i/punk-0602_false.png)
+![](i/punk-0768_false.png)
+![](i/punk-0603_false.png)
+![](i/punk-0757_false.png)
 
-
-
+![](i/punk-0002_false4x.png)
+![](i/punk-0532_false4x.png)
+![](i/punk-0058_false4x.png)
+![](i/punk-0030_false4x.png)
+![](i/punk-0635_false4x.png)
+![](i/punk-0602_false4x.png)
+![](i/punk-0768_false4x.png)
+![](i/punk-0603_false4x.png)
+![](i/punk-0757_false4x.png)
 
 
 
