@@ -39,10 +39,13 @@
 >  --[**10 things to know about CryptoPunks, the original Non-Fungible Tokens (NFTs)**](https://www.christies.com/features/10-things-to-know-about-CryptoPunks-11569-1.aspx), Christie's, April 2021
 
 
+Sold? What's your bid?
 
 
-Let's mint Christie's Nine line-up
-in the original Larva Labs 24 x 24 pixel series design:
+Let's have a closer looksie at
+the Christie's Nine line-up
+in the original Larva Labs 24 x 24 pixel series design.
+Let's mint a fresh copy:
 
 
 ``` ruby
@@ -83,13 +86,15 @@ Let's generate some freebie punks.
 
 Let's change the color to black and white or
 more scientifically known as 8-bit grayscale, that is,
-256 shades of gray (incl. black and white).
+256 shades of gray
+starting with black (`0x000000`)
+and ending with white (`0xffffff`).
 
 
-![](i/palette_grayscale)
+![](i/palette_grayscale.png)
 
 
-Let's try:
+Let's try the magic `grayscale` method:
 
 ``` ruby
 require 'pixelart'
@@ -131,6 +136,70 @@ Voila!
 
 
 How does the black and white magic work?
+Let's look at the colors
+of punk #2 before and after
+using the `show_colors` helper
+that gathers and prints the insider pixel statistics:
+
+
+``` ruby
+def show_colors( img )
+  colors = Hash.new(0)
+
+  img.width.times do |x|
+    img.height.times do |y|
+      color = img[x,y]
+      colors[color] += 1
+    end
+  end
+
+  puts "#{colors.size} color(s):"
+  colors.each_with_index do |(color,count),i|
+    print "  [#{i}]  "
+    print '%3d pixel(s) - ' % count
+    print Pixelart::Color.format( color )
+    print "\n"
+  end
+end
+```
+
+Let's try:
+
+```ruby
+punk = Pixelart::Image.read( "./punk-0002.png" )
+puts "before:"
+show_colors( punk )
+
+punk_bw = punk.grayscale
+puts "==> after:"
+show_colors( punk_bw )
+```
+
+resulting in:
+
+```
+6 color(s):
+  [0]  326 pixel(s) - #00000000 / rgb(  0   0   0) - hsla(  0°   0%   0%   0) - TRANSPARENT
+  [1]  165 pixel(s) - #000000ff / rgb(  0   0   0) - hsla(  0°   0%   0% 255) - BLACK
+  [2]   76 pixel(s) - #dbb180ff / rgb(219 177 128) - hsla( 32°  56%  68% 255)
+  [3]    4 pixel(s) - #a66e2cff / rgb(166 110  44) - hsla( 32°  58%  41% 255)
+  [4]    2 pixel(s) - #d29d60ff / rgb(210 157  96) - hsla( 32°  56%  60% 255)
+  [5]    3 pixel(s) - #711010ff / rgb(113  16  16) - hsla(  0°  75%  25% 255)
+```
+
+and
+
+```
+6 color(s):
+  [0]  326 pixel(s) - #00000000 / rgb(  0   0   0) - hsla(  0°   0%   0%   0) - TRANSPARENT
+  [1]  165 pixel(s) - #000000ff / rgb(  0   0   0) - hsla(  0°   0%   0% 255) - BLACK
+  [2]   76 pixel(s) - #b8b8b8ff / rgb(184 184 184) - hsla(  0°   0%  72% 255) - 8-BIT GRAYSCALE #184
+  [3]    4 pixel(s) - #787878ff / rgb(120 120 120) - hsla(  0°   0%  47% 255) - 8-BIT GRAYSCALE #120
+  [4]    2 pixel(s) - #a6a6a6ff / rgb(166 166 166) - hsla(  0°   0%  65% 255) - 8-BIT GRAYSCALE #166
+  [5]    3 pixel(s) - #2d2d2dff / rgb( 45  45  45) - hsla(  0°   0%  18% 255) - 8-BIT GRAYSCALE #45
+```
+
+See the black and white difference?
 
 
 
