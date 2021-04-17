@@ -102,7 +102,7 @@ require 'pixelart'
 ids = [2, 532, 58, 30, 635, 602, 768, 603, 757]
 ids.each do |id|
   name = '%04d' % id
-  punk = Pixelart::Image.read( "./punk-#{name}.png" )
+  punk = Image.read( "./punk-#{name}.png" )
 
   punk_bw = punk.grayscale
   punk_bw.save( "./punk-#{name}_bw.png" )
@@ -157,7 +157,7 @@ def show_colors( img )
   colors.each_with_index do |(color,count),i|
     print "  [#{i}]  "
     print '%3d pixel(s) - ' % count
-    print Pixelart::Color.format( color )
+    print Color.format( color )
     print "\n"
   end
 end
@@ -166,7 +166,7 @@ end
 Let's try:
 
 ```ruby
-punk = Pixelart::Image.read( "./punk-0002.png" )
+punk = Image.read( "./punk-0002.png" )
 puts "before:"
 show_colors( punk )
 
@@ -228,14 +228,11 @@ an old fashioned and aged vintage foto look.
 Let's try:
 
 ``` ruby
-palette_sepia = Pixelart::Palette8bit::SEPIA
-
-ids = [2, 532, 58, 30, 635, 602, 768, 603, 757]
 ids.each do |id|
   name = '%04d' % id
-  punk = Pixelart::Image.read( "./punk-#{name}.png" )
+  punk = Image.read( "./punk-#{name}.png" )
 
-  punk_sepia = punk.change_palette8bit( palette_sepia )
+  punk_sepia = punk.change_palette8bit( Palette8bit::SEPIA )
   punk_sepia.save( "./punk-#{name}_sepia.png" )
   punk_sepia.scale( 4 ).save( "./punk-#{name}_sepia4x.png" )
 end
@@ -274,14 +271,11 @@ What's next? Let's bring back colors!
 Let's try a blue theme:
 
 ``` ruby
-palette_blue = Pixelart::Palette8bit::BLUE
-
-ids = [2, 532, 58, 30, 635, 602, 768, 603, 757]
 ids.each do |id|
   name = '%04d' % id
-  punk = Pixelart::Image.read( "./punk-#{name}.png" )
+  punk = Image.read( "./punk-#{name}.png" )
 
-  punk_blue = punk.change_palette8bit( palette_blue )
+  punk_blue = punk.change_palette8bit( Palette8bit::BLUE )
   punk_blue.save( "./punk-#{name}_blue.png" )
   punk_blue.scale( 4 ).save( "./punk-#{name}_blue4x.png" )
 end
@@ -320,14 +314,11 @@ And to wrap up let's go futuristic.
 Let's try a false color palette:
 
 ``` ruby
-palette_false = Pixelart::Palette8bit::FALSE
-
-ids = [2, 532, 58, 30, 635, 602, 768, 603, 757]
 ids.each do |id|
   name = '%04d' % id
-  punk = Pixelart::Image.read( "./punk-#{name}.png" )
+  punk = Image.read( "./punk-#{name}.png" )
 
-  punk_false = punk.change_palette8bit( palette_false )
+  punk_false = punk.change_palette8bit( Palette8bit::FALSE )
   punk_false.save( "./punk-#{name}_false.png" )
   punk_false.scale( 4 ).save( "./punk-#{name}_false4x.png" )
 end
