@@ -99,7 +99,6 @@ Let's try the magic `grayscale` method:
 ``` ruby
 require 'pixelart'
 
-ids = [2, 532, 58, 30, 635, 602, 768, 603, 757]
 ids.each do |id|
   name = '%04d' % id
   punk = Image.read( "./punk-#{name}.png" )
@@ -181,9 +180,9 @@ resulting in:
 6 color(s):
   [0]  326 pixel(s) - #000000 / rgb(  0   0   0) - hsl(  0°   0%   0%) - α(  0%) - TRANSPARENT
   [1]  165 pixel(s) - #000000 / rgb(  0   0   0) - hsl(  0°   0%   0%)           - BLACK
-  [2]   76 pixel(s) - #dbb180 / rgb(219 177 128) - hsl( 32°  56%  68%) 
-  [3]    4 pixel(s) - #a66e2c / rgb(166 110  44) - hsl( 32°  58%  41%) 
-  [4]    2 pixel(s) - #d29d60 / rgb(210 157  96) - hsl( 32°  56%  60%) 
+  [2]   76 pixel(s) - #dbb180 / rgb(219 177 128) - hsl( 32°  56%  68%)
+  [3]    4 pixel(s) - #a66e2c / rgb(166 110  44) - hsl( 32°  58%  41%)
+  [4]    2 pixel(s) - #d29d60 / rgb(210 157  96) - hsl( 32°  56%  60%)
   [5]    3 pixel(s) - #711010 / rgb(113  16  16) - hsl(  0°  75%  25%)
 ```
 
