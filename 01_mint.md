@@ -78,3 +78,29 @@ And x8:
 And so on. Happy miniting.
 
 
+
+
+## Frequently Asked Questions (F.A.Q.s) and Answers
+
+### Q: How can I mint all punks from 0 to 9999?
+
+
+Use a script with a loop like:
+
+``` ruby
+# step 1: read composite image
+punks = Punks::Image::Composite.read( './punks.png' )
+
+# step 2: mint all punks
+(0..9999).each do |i|
+  name = '%04d' % i
+  punks[i].save( "./punk-#{name}.png" )
+end
+```
+
+
+
+
+
+
+
