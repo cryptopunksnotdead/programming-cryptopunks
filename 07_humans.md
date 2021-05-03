@@ -1,4 +1,4 @@
-# United Colors of Humanity -  Light, Lighter, Dark, Darker - How To Change Skin Tones
+# United Colors of Humanity - Light, Lighter, Dark, Darker - How To Change Skin Tones
 
 
 
@@ -263,13 +263,13 @@ punk_lighter.zoom(4).save( "./i/punk-6043_lighterx4.png" )
 
 Resulting in:
 
-![](i/punk-6043-dark.png)
-![](i/punk-6043-light.png)
-![](i/punk-6043-lighter.png)
+![](i/punk-6043_dark.png)
+![](i/punk-6043_light.png)
+![](i/punk-6043_lighter.png)
 
-![](i/punk-6043-darkx4.png)
-![](i/punk-6043-lightx4.png)
-![](i/punk-6043-lighterx4.png)
+![](i/punk-6043_darkx4.png)
+![](i/punk-6043_lightx4.png)
+![](i/punk-6043_lighterx4.png)
 
 
 Now use your own colors. Yes, you can!

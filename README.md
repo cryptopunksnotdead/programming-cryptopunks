@@ -18,6 +18,7 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 - [10 000 More Punks - Inside the Punk Art Machinery (Continued) - How To Generate Punks, Algorithmically - Paint by Numbers - A New Punk Series](04_generate_ii.md)
 - [Nine Super Rare Aliens (in Cyan)? Start the Alien Invasion from Mars - Mint Little 24×24 Extraterrestrials (E.T.s) in Green, Chartreuse, Yellow, Orange, Red, Fuchsia, or Magenta](05_alien_invasion.md)
 - [Christie's Nine Colored in Black 'n' White, Ye Olde' Sepia Tone, Blue or Futuristic False 8-Bit Color Palette - Free Downloads - Right-Click and Save Image](06_palette_8bit.md)
+- [United Colors of Humanity - Light, Lighter, Dark, Darker - How To Change Skin Tones](07_humans.md)
 
 
 
