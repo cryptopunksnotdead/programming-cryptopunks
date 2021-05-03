@@ -134,11 +134,11 @@ Let's try the punk #741 - resulting in:
 ```
 
 Let's analyze the color scheme.
-Every punkette has five base colors (plus transparent and black)
-and every punk has four base colors.
+Every (female) punkette has five base colors (plus transparent and black)
+and every (male) punk has four base colors.
 
 What's missing? If you zoom in on the mouth, that is, the three-pixel line -
-you will see it's always black for males but punkettes use a dedicated
+you will see it's always black for (male) punks but (female) punkettes use one more dedicated
 base color.
 
 
