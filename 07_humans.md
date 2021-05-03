@@ -3,11 +3,15 @@
 
 
 The punks
-in the original Lavra labs 24x24 series are
+in the original Lavra labs 24×24 series are
 available in four base colors / skin tones.
 
 
-Let's have a looksie at the super-rare punks with zero accessories / attributes:
+Let's have a looksie at the super-rare punks with zero accessories / attributes -
+[#3307](https://www.larvalabs.com/cryptopunks/details/3307),
+[#281](https://www.larvalabs.com/cryptopunks/details/281),
+[#510](https://www.larvalabs.com/cryptopunks/details/510),
+[#741](https://www.larvalabs.com/cryptopunks/details/741):
 
 
 ``` ruby
@@ -38,7 +42,11 @@ Voila!
 
 
 
-And let's look at the punkettes:
+And let's look at the punkettes -
+[#6487](https://www.larvalabs.com/cryptopunks/details/6487),
+[#641](https://www.larvalabs.com/cryptopunks/details/641),
+[#1050](https://www.larvalabs.com/cryptopunks/details/1050),
+[#2204](https://www.larvalabs.com/cryptopunks/details/2204):
 
 ``` ruby
 ids = [6487, 641, 1050, 2204]
@@ -65,6 +73,7 @@ Voila!
 
 
 Let's look at all the colors in use for punkette #2204.
+`punk.pixels.uniq` gets you all unique pixels, that is, all colors:
 
 ``` ruby
 punk = punks[1050]
@@ -75,7 +84,7 @@ colors.count
 #=> 7
 ```
 
-Let's calculate the color usage by pixel count (using the 24x24 original size, that is, a total of 576 pixels):
+Let's calculate the color usage by pixel count (using the 24×24 original size, that is, out of a total of 576 pixels):
 
 ``` ruby
 usage = Hash.new(0)
@@ -211,9 +220,56 @@ punk.zoom(4).save( "./punk-6043x4.png" )
 ![](i/punk-6043x4.png)
 
 
+``` ruby
+darker_to_dark = {
+ '#713f1d' => '#ae8b61',
+ '#8b532c' => '#b69f82',
+ '#562600' => '#86581e',
+ '#723709' => '#a77c47',
+ '#4a1201' => '#5f1d09',
+}
+
+punk_dark = punk.change_colors( darker_to_dark )
+punk_dark.save( "./punk-6043_dark.png" )
+punk_dark.zoom(4).save( "./punk-6043_darkx4.png" )
 
 
+darker_to_light = {
+ '#713f1d' => '#dbb180',
+ '#8b532c' => '#e7cba9',
+ '#562600' => '#a66e2c',
+ '#723709' => '#d29d60',
+ '#4a1201' => '#711010',
+}
+
+punk_light = punk.change_colors( darker_to_light )
+punk_light.save( "./punk-6043_light.png" )
+punk_light.zoom(4).save( "./punk-6043_lightx4.png" )
 
 
+darker_to_lighter = {
+ '#713f1d' => '#ead9d9',
+ '#8b532c' => '#ffffff',
+ '#562600' => '#a58d8d',
+ '#723709' => '#c9b2b2',
+ '#4a1201' => '#711010',
+}
+
+punk_lighter = punk.change_colors( darker_to_lighter )
+punk_lighter.save( "./i/punk-6043_lighter.png" )
+punk_lighter.zoom(4).save( "./i/punk-6043_lighterx4.png" )
+```
 
 
+Resulting in:
+
+![](i/punk-6043-dark.png)
+![](i/punk-6043-light.png)
+![](i/punk-6043-lighter.png)
+
+![](i/punk-6043-darkx4.png)
+![](i/punk-6043-lightx4.png)
+![](i/punk-6043-lighterx4.png)
+
+
+Now use your own colors. Yes, you can!
