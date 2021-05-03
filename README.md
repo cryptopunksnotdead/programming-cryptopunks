@@ -17,7 +17,7 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 - [Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers](03_generate.md)
 - [10 000 More Punks - Inside the Punk Art Machinery (Continued) - How To Generate Punks, Algorithmically - Paint by Numbers - A New Punk Series](04_generate_ii.md)
 - [Nine Super Rare Aliens (in Cyan)? Start the Alien Invasion from Mars - Mint Little 24×24 Extraterrestrials (E.T.s) in Green, Chartreuse, Yellow, Orange, Red, Fuchsia, or Magenta](05_alien_invasion.md)
-- [Free Downloads - Christie's Nine Colored in Black 'n' White, Ye Olde' Sepia Tone, Blue or Futuristic False 8-Bit Color Palette - Right-Click and Save Image](06_palette_8bit.md)
+- [Christie's Nine Colored in Black 'n' White, Ye Olde' Sepia Tone, Blue or Futuristic False 8-Bit Color Palette - Free Downloads - Right-Click and Save Image](06_palette_8bit.md)
 
 
 
