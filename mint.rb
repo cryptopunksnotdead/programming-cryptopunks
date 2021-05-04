@@ -46,26 +46,26 @@ punks[757].save( './i/punk-0757.png' )
 
 punks = Punks::Image::Composite.read( './i/more-punks-1.png' )
 
-punks[0].save('./i/punk-1000.png')
-punks[18].save('./i/punk-1018.png')
-punks[40].save('./i/punk-1040.png')
-punks[40].save('./i/punk-1088.png')
+punks[0].save('./i/punk-10000.png')
+punks[18].save('./i/punk-10018.png')
+punks[40].save('./i/punk-10040.png')
+punks[88].save('./i/punk-10088.png')
 
-punks[0].zoom(4).save('./i/punk-1000x4.png')
-punks[18].zoom(4).save('./i/punk-1018x4.png')
-punks[40].zoom(4).save('./i/punk-1040x4.png')
-punks[40].zoom(4).save('./i/punk-1088x4.png')
+punks[0].zoom(4).save('./i/punk-10000x4.png')
+punks[18].zoom(4).save('./i/punk-10018x4.png')
+punks[40].zoom(4).save('./i/punk-10040x4.png')
+punks[88].zoom(4).save('./i/punk-10088x4.png')
 
 
 punks = Punks::Image::Composite.read( './i/more-punks-2.png' )
 
-punks[0].save('./i/punk-1100.png')
-punks[79].save('./i/punk-1179.png')
-punks[80].save('./i/punk-1180.png')
-punks[90].save('./i/punk-1190.png')
+punks[0].save('./i/punk-10100.png')
+punks[79].save('./i/punk-10179.png')
+punks[80].save('./i/punk-10180.png')
+punks[90].save('./i/punk-10190.png')
 
-punks[0].zoom(4).save('./i/punk-1100x4.png')
-punks[79].zoom(4).save('./i/punk-1179x4.png')
-punks[80].zoom(4).save('./i/punk-1180x4.png')
-punks[90].zoom(4).save('./i/punk-1190x4.png')
+punks[0].zoom(4).save('./i/punk-10100x4.png')
+punks[79].zoom(4).save('./i/punk-10179x4.png')
+punks[80].zoom(4).save('./i/punk-10180x4.png')
+punks[90].zoom(4).save('./i/punk-10190x4.png')
 
