@@ -39,7 +39,7 @@
 >  --[**10 things to know about CryptoPunks, the original Non-Fungible Tokens (NFTs)**](https://www.christies.com/features/10-things-to-know-about-CryptoPunks-11569-1.aspx), Christie's, April 2021
 
 
-Sold? What's your bid?
+Sold? What's your bid?  Be bold. Come on now. No regrets!
 
 
 Let's have a closer looksie at
