@@ -15,13 +15,13 @@ according to the [Institute For the Future (IFF) at the University of Nicosia](h
 
 Let's put together new all-in-one composites that break up
 (or is that fractionalize?)
-the 10 000 cryptopunks money printing machine into smaller
+the 10 000 cryptopunks magic money printing (or is that minting?) machine into smaller
 curated collections ready to sell off to new owners
 (or is that fools?).
 
 
 
-## Step 1 -  Read True Official Genuine CryptoPunks™ composite image
+## Step 1 -  Read True Official Genuine CryptoPunks™ Composite Image
 
 
 ``` ruby
@@ -72,7 +72,7 @@ Voila!
 
 
 
-## Planet of the Apes - Platium Elite Circle
+## Planet of the Apes - Platinum Elite Circle
 
 Let's try a bigger batch
 featuring an exclusive set of all twenty-four apes.
