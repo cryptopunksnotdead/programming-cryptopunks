@@ -1,4 +1,4 @@
-# Revolutionize the Digital Art Market - Fractionalize The World's First Billion Dollar Pixel Image - Build Your Own All-In-One Composites / Collections Picking Your Punks of Choice Ready to Sell Off to New Owners
+# Revolutionize the Digital Art Market - Fractionalize The World's First Billion Dollar Pixel Image - Build Your Own All-In-One Punk Composites - Curate Your Own Exclusive Collections Ready to Sell Off to New Owners
 
 
 
@@ -14,7 +14,8 @@ according to the [Institute For the Future (IFF) at the University of Nicosia](h
 
 
 Let's put together new all-in-one composites that break up
-the 10 000 cryptopunks monster into smaller
+(or is that fractionalize?)
+the 10 000 cryptopunks money printing machine into smaller
 curated collections ready to sell off to new owners
 (or is that fools?).
 
@@ -132,9 +133,81 @@ Voila!
 
 
 
+## Blondies Have More Fun - Gold Elite Circle
+
+Let's try an exclusive set featuring all blondies -
+that is, all females with the hair style attribute of
+Blonde Short, Blonde Bob, Wild Blonde, or Straight Hair Blonde.
+
+Find all blondie records:
+
+``` ruby
+blondies = recs.select do |rec|
+                            rec.female? &&
+                            (rec.has?( 'Blonde Short' ) ||
+                             rec.has?( 'Blonde Bob' ) ||
+                             rec.has?( 'Wild Blonde') ||
+                             rec.has?( 'Straight Hair Blonde'))
+                      end
+blondies.size
+#=> 564
+```
+
+Let's put the 564 blondies in a 25x23 (max. 575) composite:
+
+
+``` ruby
+composite = Punks::Image::Composite.new( 25, 23 )
+blondies.each do |rec|
+   composite << punks[ rec.id ]
+end
+
+composite.save( 'blondies.png' )
+```
+
+Voila!
+
+![](i/blondies.png)
+
+
+
+## Free Mohawk Nation - The True Punk Edition?
+
+Let's try a set featuring all punks with mohawks -
+that is, any type with the hair style attribute of
+Mohawk, Mohawk Thin, Mohawk Dark, or Red Mohawk.
+
+Find all mohawk records:
+
+``` ruby
+mohawks = recs.select do |rec|
+                        rec.has?( 'Mohawk') ||
+                        rec.has?( 'Mohawk Thin' ) ||
+                        rec.has?( 'Mohawk Dark') ||
+                        rec.has?( 'Red Mohawk' )
+                      end
+mohawks.size
+#=> 1458
+```
+
+Let's put the 1458 mohawks in a 40x37 (max. 1480) composite:
+
+``` ruby
+composite = Punks::Image::Composite.new( 40, 37 )
+mohawks.each do |rec|
+   composite << punks[ rec.id ]
+end
+
+composite.save( 'mohawks.png' )
+```
+
+Voila!
+
+![](i/mohawks.png)
 
 
 
 
-Yes, you can!  Now curate your own composite (or is that collection?)
-ready to sell off to new owners.
+
+Now it's your turn. Yes, you can! Curate your own composite (or is that collection?)
+ready to sell off to new owners (or is that fools?).
