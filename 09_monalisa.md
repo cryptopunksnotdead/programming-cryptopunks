@@ -169,7 +169,7 @@ pipe.zoom(4).save( 'pipex4.png' )
 ```
 
 ![](i/pipe.png)
-![](i/pipe.png)
+![](i/pipex4.png)
 
 
 and let's smoke it:
