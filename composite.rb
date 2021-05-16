@@ -2,8 +2,6 @@
 #  to run use:
 #     ruby ./composite.rb
 
-
-$LOAD_PATH.unshift( "../cryptopunks/cryptopunks/lib" )
 require 'cryptopunks'
 
 punks = Punks::Image::Composite.read( './punks.png' )

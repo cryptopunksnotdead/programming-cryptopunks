@@ -20,6 +20,8 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 - [Christie's Nine Colored in Black 'n' White, Ye Olde' Sepia Tone, Blue or Futuristic False 8-Bit Color Palette - Free Downloads - Right-Click and Save Image](06_palette_8bit.md)
 - [United Colors of Humanity - Light, Lighter, Dark, Darker - How To Change Skin Tones](07_humans.md)
 - [Revolutionize the Digital Art Market - Fractionalize The World's First Billion Dollar Pixel Image - Build Your Own All-In-One Punk Composites - Curate Your Own Exclusive Collections Ready to Sell Off to New Owners](08_composite.md)
+- [Inside the $7.5 Million "Mr Mona Lisa" Punk - Deconstructing the 24x24 Pixel Art and Reconstructing with a Smile in a "Mr & Mrs Mona Lisa" Left and Right Edition](09_monalisa.md)
+
 
 
 To be continued...
