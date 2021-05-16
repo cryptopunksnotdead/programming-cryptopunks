@@ -300,4 +300,5 @@ mrmrs.mirror.zoom(4).save( 'mrmrsmonalisa_leftx4.png' )
 That's it.
 
 Now it's your turn. Yes, you can!
-Create the next super rare digital mona lisa.
+Create the next super rare digital mona lisa where a $7.5 million price is a steal - a rounding error (roughly $0) - 
+because obviously it's worth hundreds of millions if not priceless.
