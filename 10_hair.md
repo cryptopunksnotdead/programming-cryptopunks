@@ -166,4 +166,102 @@ Voila!
 ![](i/punkette_light_side_whitesmokex4.png)
 
 
+And let's try how the colors match with all skin tones (ligher, light, dark, darker):
+
+``` ruby
+skin_tones = {
+  'lighter' => HUMAN_COLORS_LIGHTER,
+  'light'   => HUMAN_COLORS_LIGHT,
+  'dark'    => HUMAN_COLORS_DARK,
+  'darker'  => HUMAN_COLORS_DARKER
+}
+```
+
+and adjusting the hair stylist loop:
+
+``` ruby
+hair_colors.each do |hair_color_name, hair_color|
+  hair = Image.parse( sidehair_design, colors: [hair_color] )
+
+  skin_tones.each do |skin_tone_name, skin_tone_colors|
+    punkette = Image.parse( punkette_design, colors: skin_tone_colors )
+
+    punkette.compose!( hair )
+
+    name = "#{skin_tone_name}_side_#{hair_color_name}"
+    punkette.save( "./i/punkette_#{name}.png" )
+    punkette.zoom(4).save( "./i/punkette_#{name}x4.png" )
+  end
+end
+```
+
+Voila!
+
+![](i/punkette_lighter_side_black.png)
+![](i/punkette_lighter_side_brunette.png)
+![](i/punkette_lighter_side_red.png)
+![](i/punkette_lighter_side_orange.png)
+![](i/punkette_lighter_side_green.png)
+![](i/punkette_lighter_side_blonde.png)
+![](i/punkette_lighter_side_whitesmoke.png)
+
+![](i/punkette_light_side_black.png)
+![](i/punkette_light_side_brunette.png)
+![](i/punkette_light_side_red.png)
+![](i/punkette_light_side_orange.png)
+![](i/punkette_light_side_green.png)
+![](i/punkette_light_side_blonde.png)
+![](i/punkette_light_side_whitesmoke.png)
+
+![](i/punkette_dark_side_black.png)
+![](i/punkette_dark_side_brunette.png)
+![](i/punkette_dark_side_red.png)
+![](i/punkette_dark_side_orange.png)
+![](i/punkette_dark_side_green.png)
+![](i/punkette_dark_side_blonde.png)
+![](i/punkette_dark_side_whitesmoke.png)
+
+![](i/punkette_darker_side_black.png)
+![](i/punkette_darker_side_brunette.png)
+![](i/punkette_darker_side_red.png)
+![](i/punkette_darker_side_orange.png)
+![](i/punkette_darker_side_green.png)
+![](i/punkette_darker_side_blonde.png)
+![](i/punkette_darker_side_whitesmoke.png)
+
+4x
+
+![](i/punkette_lighter_side_blackx4.png)
+![](i/punkette_lighter_side_brunettex4.png)
+![](i/punkette_lighter_side_redx4.png)
+![](i/punkette_lighter_side_orangex4.png)
+![](i/punkette_lighter_side_greenx4.png)
+![](i/punkette_lighter_side_blondex4.png)
+![](i/punkette_lighter_side_whitesmokex4.png)
+
+![](i/punkette_light_side_blackx4.png)
+![](i/punkette_light_side_brunettex4.png)
+![](i/punkette_light_side_redx4.png)
+![](i/punkette_light_side_orangex4.png)
+![](i/punkette_light_side_greenx4.png)
+![](i/punkette_light_side_blondex4.png)
+![](i/punkette_light_side_whitesmokex4.png)
+
+![](i/punkette_dark_side_blackx4.png)
+![](i/punkette_dark_side_brunettex4.png)
+![](i/punkette_dark_side_redx4.png)
+![](i/punkette_dark_side_orangex4.png)
+![](i/punkette_dark_side_greenx4.png)
+![](i/punkette_dark_side_blondex4.png)
+![](i/punkette_dark_side_whitesmokex4.png)
+
+![](i/punkette_darker_side_blackx4.png)
+![](i/punkette_darker_side_brunettex4.png)
+![](i/punkette_darker_side_redx4.png)
+![](i/punkette_darker_side_orangex4.png)
+![](i/punkette_darker_side_greenx4.png)
+![](i/punkette_darker_side_blondex4.png)
+![](i/punkette_darker_side_whitesmokex4.png)
+
+
 

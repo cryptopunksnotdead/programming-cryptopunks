@@ -115,7 +115,26 @@ end
 
 
 
+skin_tones = {
+  'lighter' => HUMAN_COLORS_LIGHTER,
+  'light'   => HUMAN_COLORS_LIGHT,
+  'dark'    => HUMAN_COLORS_DARK,
+  'darker'  => HUMAN_COLORS_DARKER
+}
 
+hair_colors.each do |hair_color_name, hair_color|
+  hair     = Image.parse( sidehair_design, colors: [hair_color] )
+
+  skin_tones.each do |skin_tone_name, skin_tone_colors|
+    punkette = Image.parse( punkette_design, colors: skin_tone_colors )
+
+    punkette.compose!( hair )
+
+    name = "#{skin_tone_name}_side_#{hair_color_name}"
+    punkette.save( "./i/punkette_#{name}.png" )
+    punkette.zoom(4).save( "./i/punkette_#{name}x4.png" )
+  end
+end
 
 
 
