@@ -112,7 +112,58 @@ punkette.zoom(4).save( 'punkette_light_side_orangex4.png' )
 
 
 
+Is Black the New Black? Let's try out more hair colors:
 
+``` ruby
+BLACK      = '000000'
+BRUNETTE   = '51360c'
+RED        = 'e22626'
+YELLOW     = 'ffd926'
+GREEN      = '28b143'
+BLONDE     = 'fff68e'
+WHITESMOKE = 'f5f5f5'
+
+
+hair_colors = {
+  'black'      => BLACK,
+  'brunette'   => BRUNETTE,
+  'red'        => RED,
+  'orange'     => ORANGE,
+  'green'      => GREEN,
+  'blonde'     => BLONDE,
+  'whitesmoke' => WHITESMOKE,
+}
+
+
+hair_colors.each do |hair_color_name, hair_color|
+  punkette = Image.parse( punkette_design, colors: HUMAN_COLORS_LIGHT )
+  hair     = Image.parse( sidehair_design, colors: [hair_color] )
+
+  punkette.compose!( hair )
+
+  name = "light_side_#{hair_color_name}"
+  punkette.save( "punkette_#{name}.png" )
+  punkette.zoom(4).save( "punkette_#{name}x4.png" )
+end
+```
+
+Voila!
+
+![](i/punkette_light_side_black.png)
+![](i/punkette_light_side_brunette.png)
+![](i/punkette_light_side_red.png)
+![](i/punkette_light_side_orange.png)
+![](i/punkette_light_side_green.png)
+![](i/punkette_light_side_blonde.png)
+![](i/punkette_light_side_whitesmoke.png)
+
+![](i/punkette_light_side_blackx4.png)
+![](i/punkette_light_side_brunettex4.png)
+![](i/punkette_light_side_redx4.png)
+![](i/punkette_light_side_orangex4.png)
+![](i/punkette_light_side_greenx4.png)
+![](i/punkette_light_side_blondex4.png)
+![](i/punkette_light_side_whitesmokex4.png)
 
 
 
