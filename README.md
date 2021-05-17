@@ -21,6 +21,8 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 - [United Colors of Humanity - Light, Lighter, Dark, Darker - How To Change Skin Tones](07_humans.md)
 - [Revolutionize the Digital Art Market - Fractionalize The World's First Billion Dollar Pixel Image - Build Your Own All-In-One Punk Composites - Curate Your Own Exclusive Collections Ready to Sell Off to New Owners](08_composite.md)
 - [Inside the $7.5 Million "Mr Mona Lisa" Punk - Deconstructing the 24x24 Pixel Art and Reconstructing with a Smile in a "Mr & Mrs Mona Lisa" Left and Right Edition](09_monalisa.md)
+- [7 Quick & Easy Hairstyles with Simple Instructions to Do in a Few Minutes - Trendy Ideas for Punkettes to Try in 2021 - Is Orange the New Black?](10_hair.md)
+
 
 
 
