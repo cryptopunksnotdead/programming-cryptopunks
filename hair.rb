@@ -138,4 +138,67 @@ end
 
 
 
+wildhair_design = <<TXT
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . @ @ @ @ . @ . . . . . . . .
+. . . . . . . @ . @ @ @ @ @ @ . . . . . . . . .
+. . . . . . . @ @ @ @ @ @ @ @ @ . @ . . . . . .
+. . . . . @ @ @ @ @ @ @ @ @ @ @ @ . @ . . . . .
+. . . . . . @ @ @ @ . @ @ @ @ @ @ @ @ . . . . .
+. . . . . @ @ @ @ . @ . @ . . @ @ @ . . . . . .
+. . . . @ . @ @ @ . . . @ . . . @ @ @ . . . . .
+. . . . . @ @ @ . . . . @ . . . . @ . @ . . . .
+. . . . @ . @ . . . . . . @ . . . @ @ . . . . .
+. . . @ @ @ @ . . . . . . . . . . @ @ . . . . .
+. . . . . @ @ . . . . . . . . . . @ @ @ . . . .
+. . . . . @ @ . . . . . . . . . . @ . . . . . .
+. . . . @ . . . . . . . . . . . . . @ . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+TXT
+
+
+wildhair = Image.parse( wildhair_design, colors: [BLACK] )
+wildhair.save( './i/wildhair_black.png' )
+wildhair.zoom(4).save('./i/wildhair_blackx4.png')
+
+
+
+
+
+
+
+
+hair_styles = {
+  'side'     => sidehair_design,
+  'wild'     => wildhair_design,
+}
+
+hair_styles.each do |hair_style_name, hair_style|
+  hair_colors.each do |hair_color_name, hair_color|
+    hair = Image.parse( hair_style, colors: [hair_color] )
+
+    skin_tones.each do |skin_tone_name, skin_tone_colors|
+      punkette = Image.parse( punkette_design, colors: skin_tone_colors )
+
+      punkette.compose!( hair )
+
+      name = "#{skin_tone_name}_#{hair_style_name}_#{hair_color_name}"
+      punkette.save( "./i/punkette_#{name}.png" )
+      punkette.zoom(4).save( "./i/punkette_#{name}x4.png" )
+    end
+  end
+end
+
+
 puts "bye"
+
+

@@ -189,8 +189,8 @@ hair_colors.each do |hair_color_name, hair_color|
     punkette.compose!( hair )
 
     name = "#{skin_tone_name}_side_#{hair_color_name}"
-    punkette.save( "./i/punkette_#{name}.png" )
-    punkette.zoom(4).save( "./i/punkette_#{name}x4.png" )
+    punkette.save( "punkette_#{name}.png" )
+    punkette.zoom(4).save( "punkette_#{name}x4.png" )
   end
 end
 ```
@@ -262,6 +262,145 @@ Voila!
 ![](i/punkette_darker_side_greenx4.png)
 ![](i/punkette_darker_side_blondex4.png)
 ![](i/punkette_darker_side_whitesmokex4.png)
+
+
+
+
+What's trendy in 2021?
+Let's try out some hair dos.
+
+``` ruby
+wildhair_design = <<TXT
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . @ @ @ @ . @ . . . . . . . .
+. . . . . . . @ . @ @ @ @ @ @ . . . . . . . . .
+. . . . . . . @ @ @ @ @ @ @ @ @ . @ . . . . . .
+. . . . . @ @ @ @ @ @ @ @ @ @ @ @ . @ . . . . .
+. . . . . . @ @ @ @ . @ @ @ @ @ @ @ @ . . . . .
+. . . . . @ @ @ @ . @ . @ . . @ @ @ . . . . . .
+. . . . @ . @ @ @ . . . @ . . . @ @ @ . . . . .
+. . . . . @ @ @ . . . . @ . . . . @ . @ . . . .
+. . . . @ . @ . . . . . . @ . . . @ @ . . . . .
+. . . @ @ @ @ . . . . . . . . . . @ @ . . . . .
+. . . . . @ @ . . . . . . . . . . @ @ @ . . . .
+. . . . . @ @ . . . . . . . . . . @ . . . . . .
+. . . . @ . . . . . . . . . . . . . @ . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+TXT
+
+
+wildhair = Image.parse( wildhair_design, colors: [BLACK] )
+wildhair.save( 'wildhair_black.png' )
+wildhair.zoom(4).save('wildhair_blackx4.png')
+```
+
+![](i/wildhair_black.png)
+![](i/wildhair_blackx4.png)
+
+
+
+and let's adjusting the hair stylist loop on more time:
+
+``` ruby
+hair_styles = {
+  'side'     => sidehair_design,
+  'wild'     => wildhair_design,
+}
+
+hair_styles.each do |hair_style_name, hair_style|
+  hair_colors.each do |hair_color_name, hair_color|
+    hair = Image.parse( hair_style, colors: [hair_color] )
+
+    skin_tones.each do |skin_tone_name, skin_tone_colors|
+      punkette = Image.parse( punkette_design, colors: skin_tone_colors )
+
+      punkette.compose!( hair )
+
+      name = "#{skin_tone_name}_#{hair_style_name}_#{hair_color_name}"
+      punkette.save( "punkette_#{name}.png" )
+      punkette.zoom(4).save( "punkette_#{name}x4.png" )
+    end
+  end
+end
+```
+
+Voila!
+
+
+![](i/punkette_lighter_wild_black.png)
+![](i/punkette_lighter_wild_brunette.png)
+![](i/punkette_lighter_wild_red.png)
+![](i/punkette_lighter_wild_orange.png)
+![](i/punkette_lighter_wild_green.png)
+![](i/punkette_lighter_wild_blonde.png)
+![](i/punkette_lighter_wild_whitesmoke.png)
+
+![](i/punkette_light_wild_black.png)
+![](i/punkette_light_wild_brunette.png)
+![](i/punkette_light_wild_red.png)
+![](i/punkette_light_wild_orange.png)
+![](i/punkette_light_wild_green.png)
+![](i/punkette_light_wild_blonde.png)
+![](i/punkette_light_wild_whitesmoke.png)
+
+![](i/punkette_dark_wild_black.png)
+![](i/punkette_dark_wild_brunette.png)
+![](i/punkette_dark_wild_red.png)
+![](i/punkette_dark_wild_orange.png)
+![](i/punkette_dark_wild_green.png)
+![](i/punkette_dark_wild_blonde.png)
+![](i/punkette_dark_wild_whitesmoke.png)
+
+![](i/punkette_darker_wild_black.png)
+![](i/punkette_darker_wild_brunette.png)
+![](i/punkette_darker_wild_red.png)
+![](i/punkette_darker_wild_orange.png)
+![](i/punkette_darker_wild_green.png)
+![](i/punkette_darker_wild_blonde.png)
+![](i/punkette_darker_wild_whitesmoke.png)
+
+4x
+
+![](i/punkette_lighter_wild_blackx4.png)
+![](i/punkette_lighter_wild_brunettex4.png)
+![](i/punkette_lighter_wild_redx4.png)
+![](i/punkette_lighter_wild_orangex4.png)
+![](i/punkette_lighter_wild_greenx4.png)
+![](i/punkette_lighter_wild_blondex4.png)
+![](i/punkette_lighter_wild_whitesmokex4.png)
+
+![](i/punkette_light_wild_blackx4.png)
+![](i/punkette_light_wild_brunettex4.png)
+![](i/punkette_light_wild_redx4.png)
+![](i/punkette_light_wild_orangex4.png)
+![](i/punkette_light_wild_greenx4.png)
+![](i/punkette_light_wild_blondex4.png)
+![](i/punkette_light_wild_whitesmokex4.png)
+
+![](i/punkette_dark_wild_blackx4.png)
+![](i/punkette_dark_wild_brunettex4.png)
+![](i/punkette_dark_wild_redx4.png)
+![](i/punkette_dark_wild_orangex4.png)
+![](i/punkette_dark_wild_greenx4.png)
+![](i/punkette_dark_wild_blondex4.png)
+![](i/punkette_dark_wild_whitesmokex4.png)
+
+![](i/punkette_darker_wild_blackx4.png)
+![](i/punkette_darker_wild_brunettex4.png)
+![](i/punkette_darker_wild_redx4.png)
+![](i/punkette_darker_wild_orangex4.png)
+![](i/punkette_darker_wild_greenx4.png)
+![](i/punkette_darker_wild_blondex4.png)
+![](i/punkette_darker_wild_whitesmokex4.png)
 
 
 
