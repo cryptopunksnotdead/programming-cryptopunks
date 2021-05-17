@@ -267,7 +267,7 @@ Voila!
 
 
 What's trendy in 2021?
-Let's try out some hair dos.
+Let's try out some more hair dos.
 
 ``` ruby
 wildhair_design = <<TXT
@@ -290,11 +290,6 @@ wildhair_design = <<TXT
 . . . . . @ @ . . . . . . . . . . @ . . . . . .
 . . . . @ . . . . . . . . . . . . . @ . . . . .
 . . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . .
-. . . . . . . . . . . . . . . . . . . . . . . .
 TXT
 
 
@@ -308,7 +303,7 @@ wildhair.zoom(4).save('wildhair_blackx4.png')
 
 
 
-and let's adjusting the hair stylist loop on more time:
+and let's adjust the hair stylist loop one more time:
 
 ``` ruby
 hair_styles = {
@@ -403,4 +398,277 @@ Voila!
 ![](i/punkette_darker_wild_whitesmokex4.png)
 
 
+And
 
+``` ruby
+mohawk_design = <<TXT
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . @ @ . . . . . . . . .
+. . . . . . . . . . . . @ @ @ . . . . . . . . .
+. . . . . . . . . . . @ @ @ @ . . . . . . . . .
+. . . . . . . . . . @ @ @ @ @ . . . . . . . . .
+. . . . . . . . . @ @ @ @ @ @ . . . . . . . . .
+. . . . . . . . . . . . @ @ . . . . . . . . . .
+. . . . . . . . . . . . . @ . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+TXT
+```
+
+Voila!
+
+
+![](i/punkette_lighter_mohawk_black.png)
+![](i/punkette_lighter_mohawk_brunette.png)
+![](i/punkette_lighter_mohawk_red.png)
+![](i/punkette_lighter_mohawk_orange.png)
+![](i/punkette_lighter_mohawk_green.png)
+![](i/punkette_lighter_mohawk_blonde.png)
+![](i/punkette_lighter_mohawk_whitesmoke.png)
+
+![](i/punkette_light_mohawk_black.png)
+![](i/punkette_light_mohawk_brunette.png)
+![](i/punkette_light_mohawk_red.png)
+![](i/punkette_light_mohawk_orange.png)
+![](i/punkette_light_mohawk_green.png)
+![](i/punkette_light_mohawk_blonde.png)
+![](i/punkette_light_mohawk_whitesmoke.png)
+
+![](i/punkette_dark_mohawk_black.png)
+![](i/punkette_dark_mohawk_brunette.png)
+![](i/punkette_dark_mohawk_red.png)
+![](i/punkette_dark_mohawk_orange.png)
+![](i/punkette_dark_mohawk_green.png)
+![](i/punkette_dark_mohawk_blonde.png)
+![](i/punkette_dark_mohawk_whitesmoke.png)
+
+![](i/punkette_darker_mohawk_black.png)
+![](i/punkette_darker_mohawk_brunette.png)
+![](i/punkette_darker_mohawk_red.png)
+![](i/punkette_darker_mohawk_orange.png)
+![](i/punkette_darker_mohawk_green.png)
+![](i/punkette_darker_mohawk_blonde.png)
+![](i/punkette_darker_mohawk_whitesmoke.png)
+
+4x
+
+![](i/punkette_lighter_mohawk_blackx4.png)
+![](i/punkette_lighter_mohawk_brunettex4.png)
+![](i/punkette_lighter_mohawk_redx4.png)
+![](i/punkette_lighter_mohawk_orangex4.png)
+![](i/punkette_lighter_mohawk_greenx4.png)
+![](i/punkette_lighter_mohawk_blondex4.png)
+![](i/punkette_lighter_mohawk_whitesmokex4.png)
+
+![](i/punkette_light_mohawk_blackx4.png)
+![](i/punkette_light_mohawk_brunettex4.png)
+![](i/punkette_light_mohawk_redx4.png)
+![](i/punkette_light_mohawk_orangex4.png)
+![](i/punkette_light_mohawk_greenx4.png)
+![](i/punkette_light_mohawk_blondex4.png)
+![](i/punkette_light_mohawk_whitesmokex4.png)
+
+![](i/punkette_dark_mohawk_blackx4.png)
+![](i/punkette_dark_mohawk_brunettex4.png)
+![](i/punkette_dark_mohawk_redx4.png)
+![](i/punkette_dark_mohawk_orangex4.png)
+![](i/punkette_dark_mohawk_greenx4.png)
+![](i/punkette_dark_mohawk_blondex4.png)
+![](i/punkette_dark_mohawk_whitesmokex4.png)
+
+![](i/punkette_darker_mohawk_blackx4.png)
+![](i/punkette_darker_mohawk_brunettex4.png)
+![](i/punkette_darker_mohawk_redx4.png)
+![](i/punkette_darker_mohawk_orangex4.png)
+![](i/punkette_darker_mohawk_greenx4.png)
+![](i/punkette_darker_mohawk_blondex4.png)
+![](i/punkette_darker_mohawk_whitesmokex4.png)
+
+
+
+And
+
+``` ruby
+bob_design = <<TXT
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . @ @ @ @ @ @ . . . . . . . . .
+. . . . . . . @ @ @ @ @ @ @ @ @ . . . . . . . .
+. . . . . . . @ @ @ @ @ @ @ @ @ @ . . . . . . .
+. . . . . . @ @ @ @ @ @ @ @ . @ @ @ . . . . . .
+. . . . . . @ @ . @ @ @ @ . . . @ @ . . . . . .
+. . . . . . @ @ . . . @ . . . . @ @ . . . . . .
+. . . . . @ @ @ . . . . . . . . @ @ . . . . . .
+. . . . . @ @ . . . . . . . . . @ @ . . . . . .
+. . . . . @ @ . . . . . . . . . @ @ . . . . . .
+. . . . . @ @ @ . . . . . . . . @ @ . . . . . .
+. . . . . @ @ @ . . . . . . . . @ @ @ . . . . .
+. . . . . @ @ @ . . . . . . . . @ @ @ . . . . .
+. . . . @ @ @ @ @ . . . . . . . @ @ @ @ . . . .
+. . . . . . @ @ @ @ . . . . . @ @ . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+TXT
+```
+
+Voila!
+
+
+![](i/punkette_lighter_bob_black.png)
+![](i/punkette_lighter_bob_brunette.png)
+![](i/punkette_lighter_bob_red.png)
+![](i/punkette_lighter_bob_orange.png)
+![](i/punkette_lighter_bob_green.png)
+![](i/punkette_lighter_bob_blonde.png)
+![](i/punkette_lighter_bob_whitesmoke.png)
+
+![](i/punkette_light_bob_black.png)
+![](i/punkette_light_bob_brunette.png)
+![](i/punkette_light_bob_red.png)
+![](i/punkette_light_bob_orange.png)
+![](i/punkette_light_bob_green.png)
+![](i/punkette_light_bob_blonde.png)
+![](i/punkette_light_bob_whitesmoke.png)
+
+![](i/punkette_dark_bob_black.png)
+![](i/punkette_dark_bob_brunette.png)
+![](i/punkette_dark_bob_red.png)
+![](i/punkette_dark_bob_orange.png)
+![](i/punkette_dark_bob_green.png)
+![](i/punkette_dark_bob_blonde.png)
+![](i/punkette_dark_bob_whitesmoke.png)
+
+![](i/punkette_darker_bob_black.png)
+![](i/punkette_darker_bob_brunette.png)
+![](i/punkette_darker_bob_red.png)
+![](i/punkette_darker_bob_orange.png)
+![](i/punkette_darker_bob_green.png)
+![](i/punkette_darker_bob_blonde.png)
+![](i/punkette_darker_bob_whitesmoke.png)
+
+4x
+
+![](i/punkette_lighter_bob_blackx4.png)
+![](i/punkette_lighter_bob_brunettex4.png)
+![](i/punkette_lighter_bob_redx4.png)
+![](i/punkette_lighter_bob_orangex4.png)
+![](i/punkette_lighter_bob_greenx4.png)
+![](i/punkette_lighter_bob_blondex4.png)
+![](i/punkette_lighter_bob_whitesmokex4.png)
+
+![](i/punkette_light_bob_blackx4.png)
+![](i/punkette_light_bob_brunettex4.png)
+![](i/punkette_light_bob_redx4.png)
+![](i/punkette_light_bob_orangex4.png)
+![](i/punkette_light_bob_greenx4.png)
+![](i/punkette_light_bob_blondex4.png)
+![](i/punkette_light_bob_whitesmokex4.png)
+
+![](i/punkette_dark_bob_blackx4.png)
+![](i/punkette_dark_bob_brunettex4.png)
+![](i/punkette_dark_bob_redx4.png)
+![](i/punkette_dark_bob_orangex4.png)
+![](i/punkette_dark_bob_greenx4.png)
+![](i/punkette_dark_bob_blondex4.png)
+![](i/punkette_dark_bob_whitesmokex4.png)
+
+![](i/punkette_darker_bob_blackx4.png)
+![](i/punkette_darker_bob_brunettex4.png)
+![](i/punkette_darker_bob_redx4.png)
+![](i/punkette_darker_bob_orangex4.png)
+![](i/punkette_darker_bob_greenx4.png)
+![](i/punkette_darker_bob_blondex4.png)
+![](i/punkette_darker_bob_whitesmokex4.png)
+
+
+
+
+
+And
+
+``` ruby
+clown_design = <<TXT
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . @ @ @ . . . . . . . . . . .
+. . . . . . . @ @ @ @ @ @ @ @ @ . . . . . . . .
+. . . . . . @ @ @ @ @ @ @ @ @ @ @ . . . . . . .
+. . . . . @ @ @ @ @ @ @ @ @ @ @ @ @ . . . . . .
+. . . . @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ . . . . .
+. . . . @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ . . . . .
+. . . @ @ @ @ @ @ @ . . . . @ @ @ @ @ @ . . . .
+. . . @ @ @ @ @ . . . . . . . . @ @ @ @ . . . .
+. . . @ @ @ @ . . . . . . . . . @ @ @ @ . . . .
+. . . . @ @ . . . . . . . . . . @ @ @ . . . . .
+. . . . @ @ . . . . . . . . . . . @ @ . . . . .
+. . . . @ @ . . . . . . . . . . . . @ . . . . .
+. . . . . @ @ . . . . . . . . . . @ . . . . . .
+. . . . . . @ . . . . . . . . . . @ . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+TXT
+```
+
+And
+
+``` ruby
+straight_design = <<TXT
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . @ @ @ @ @ @ . . . . . . . . .
+. . . . . . . . @ @ @ @ @ @ @ @ . . . . . . . .
+. . . . . . . @ @ @ @ @ @ @ @ @ @ . . . . . . .
+. . . . . . @ @ @ @ . . . . . @ @ . . . . . . .
+. . . . . . @ @ @ . . . . . . . @ . . . . . . .
+. . . . . . @ @ @ . . . . . . . @ . . . . . . .
+. . . . . @ @ @ . . . . . . . . @ . . . . . . .
+. . . . . @ @ @ . . . . . . . . @ . . . . . . .
+. . . . . @ @ @ . . . . . . . . @ . . . . . . .
+. . . . . @ @ @ . . . . . . . . @ . . . . . . .
+. . . . . @ @ @ . . . . . . . . @ . . . . . . .
+. . . . . @ @ @ . . . . . . . . @ . . . . . . .
+. . . . . @ @ @ . . . . . . . . @ . . . . . . .
+. . . . . @ @ @ . . . . . . . @ @ . . . . . . .
+. . . . . @ @ @ . . . . . . @ @ @ . . . . . . .
+. . . . . @ @ @ . . . . . @ @ @ . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+TXT
+```
+
+And
+
+``` ruby
+pigtails_design = <<TXT
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+. . . . . . . . . @ @ @ @ @ @ . . . . . . . . .
+. . . . @ @ . . @ @ @ @ @ @ @ @ . . @ @ . . . .
+. . . @ @ @ @ x @ @ @ @ @ @ @ @ x @ @ @ @ . . .
+. . @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ @ . .
+. . @ @ @ @ . @ @ @ . . . . . @ @ . @ @ @ @ . .
+. . @ @ @ . . @ @ . . . . . . . @ . . @ @ @ . .
+. . @ @ @ . . @ . . . . . . . . . . . @ @ @ . .
+. . . @ . . . . . . . . . . . . . . . . @ . . .
+. . . . . . . . . . . . . . . . . . . . . . . .
+TXT
+```
+
+
+
+
+
+
+
+That's it. Now it's your turn. Yes, you can!
+Use your own hair style and color.
