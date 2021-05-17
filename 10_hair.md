@@ -54,7 +54,7 @@ punkette.zoom(4).save( 'punkette_lightx4.png' )
 
 
 
-Salon hair time! Let's add a hair style.
+Salon time! Let's add a hair style.
 Let's start with the side hair style in orange (that's the only
 hair color in the original Lavra Lab series from 2017 with a side hair style do):
 
