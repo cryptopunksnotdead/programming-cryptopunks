@@ -38,7 +38,7 @@ HUMAN_COLORS_LIGHT = ['000000','a66e2c','d29d60','dbb180','e7cba9','711010']
 punkette = Image.parse( punkette_design, colors: HUMAN_COLORS_LIGHT )
 
 punkette.save( './i/punkette_light.png' )
-punkette.zoom(4).save( './i/punkette_light.png' )
+punkette.zoom(4).save( './i/punkette_lightx4.png' )
 
 
 sidehair_design = <<TXT
@@ -73,6 +73,12 @@ ORANGE = 'e65700'
 sidehair = Image.parse( sidehair_design, colors: [ORANGE] )
 sidehair.save( './i/sidehair_orange.png' )
 sidehair.zoom(4).save('./i/sidehair_orangex4.png')
+
+
+
+punkette.compose!( sidehair )
+punkette.save( './i/punkette_light_side_orange.png' )
+punkette.zoom(4).save( './i/punkette_light_side_orangex4.png' )
 
 
 
