@@ -52,7 +52,7 @@ punk.mirror
 ![](i/phunk-3100.png)
 ![](i/phunk-3393.png)
 ![](i/phunk-0172.png)
-![](i/phunk-2964.png)  - 4x:
+![](i/phunk-2964.png)   4x:
 ![](i/phunk-3100x4.png)
 ![](i/phunk-3393x4.png)
 ![](i/phunk-0172x4.png)
@@ -76,7 +76,7 @@ punk.grayscale
 ![](i/punk-3100_bw.png)
 ![](i/punk-3393_bw.png)
 ![](i/punk-0172_bw.png)
-![](i/punk-2964_bw.png)  - 4x:
+![](i/punk-2964_bw.png)   4x:
 ![](i/punk-3100_bwx4.png)
 ![](i/punk-3393_bwx4.png)
 ![](i/punk-0172_bwx4.png)
@@ -93,11 +93,11 @@ punk.change_palette8bit( Palette8bit::SEPIA )
 ![](i/punk-3100_sepia.png)
 ![](i/punk-3393_sepia.png)
 ![](i/punk-0172_sepia.png)
-![](i/punk-2964_sepia.png)  - 4x:
-![](i/punk-3100_sepiax4.png)
-![](i/punk-3393_sepiax4.png)
-![](i/punk-0172_sepiax4.png)
-![](i/punk-2964_sepiax4.png)
+![](i/punk-2964_sepia.png)   4x:
+![](i/punk-3100_sepia4x.png)
+![](i/punk-3393_sepia4x.png)
+![](i/punk-0172_sepia4x.png)
+![](i/punk-2964_sepia4x.png)
 
  §
 
@@ -110,11 +110,11 @@ punk.change_palette8bit( Palette8bit::BLUE )
 ![](i/punk-3100_blue.png)
 ![](i/punk-3393_blue.png)
 ![](i/punk-0172_blue.png)
-![](i/punk-2964_blue.png)  - 4x:
-![](i/punk-3100_bluex4.png)
-![](i/punk-3393_bluex4.png)
-![](i/punk-0172_bluex4.png)
-![](i/punk-2964_bluex4.png)
+![](i/punk-2964_blue.png)   4x:
+![](i/punk-3100_blue4x.png)
+![](i/punk-3393_blue4x.png)
+![](i/punk-0172_blue4x.png)
+![](i/punk-2964_blue4x.png)
 
 
  §
@@ -128,11 +128,11 @@ punk.change_palette8bit( Palette8bit::FALSE )
 ![](i/punk-3100_false.png)
 ![](i/punk-3393_false.png)
 ![](i/punk-0172_false.png)
-![](i/punk-2964_false.png)  - 4x:
-![](i/punk-3100_falsex4.png)
-![](i/punk-3393_falsex4.png)
-![](i/punk-0172_falsex4.png)
-![](i/punk-2964_falsex4.png)
+![](i/punk-2964_false.png)   4x:
+![](i/punk-3100_false4x.png)
+![](i/punk-3393_false4x.png)
+![](i/punk-0172_false4x.png)
+![](i/punk-2964_false4x.png)
 
 
 
