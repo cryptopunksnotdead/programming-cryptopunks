@@ -27,6 +27,7 @@ punk.zoom(4)
 ![](i/punk-0172x4.png)
 ![](i/punk-2964x4.png)
 
+ o o o
 
 8x:
 
@@ -42,7 +43,7 @@ punk.zoom(8)
 
 
 
-## Mirror - From Right-Facing to Left Facing
+## Mirror - From Right-Facing to Left-Facing
 
 Let's flip the pixels horizontally.
 
@@ -62,7 +63,7 @@ punk.mirror
 
 Let's change to a black & white (pecil drawing) sketch.
 
-Sketch Zoom - 4 pixels, Line (Brush) - 1 pixel   (the default):
+Sketch zoom - 4 pixels, line (brush) - 1 pixel   (the default):
 
 ``` ruby
 punk.sketch( 4 )
@@ -73,8 +74,10 @@ punk.sketch( 4 )
 ![](i/punk-0172_sketch4x.png)
 ![](i/punk-2964_sketch4x.png)
 
+  o o o
 
-Sketch Zoom - 4 pixels, Line (Brush) - 4 pixels:
+
+Sketch zoom - 4 pixels, line (brush) - 4 pixels:
 
 ``` ruby
 punk.sketch( 4, line: 4 )
@@ -85,7 +88,10 @@ punk.sketch( 4, line: 4 )
 ![](i/punk-0172_sketch4x4.png)
 ![](i/punk-2964_sketch4x4.png)
 
-Sketch Zoom - 8 pixels, Line (Brush) - 2 pixels:
+  o o o
+
+
+Sketch zoom - 8 pixels, line (brush) - 2 pixels:
 
 ``` ruby
 punk.sketch( 8, line: 2 )
@@ -96,8 +102,10 @@ punk.sketch( 8, line: 2 )
 ![](i/punk-0172_sketch8x2.png)
 ![](i/punk-2964_sketch8x2.png)
 
+ o o o
 
-Sketch Zoom - 12 pixels, Line (Brush) - 3 pixels:
+
+Sketch zoom - 12 pixels, line (brush) - 3 pixels:
 
 ``` ruby
 punk.sketch( 12, line: 3 )
@@ -107,6 +115,8 @@ punk.sketch( 12, line: 3 )
 ![](i/punk-3393_sketch12x3.png)
 ![](i/punk-0172_sketch12x3.png)
 ![](i/punk-2964_sketch12x3.png)
+
+
 
 
 
