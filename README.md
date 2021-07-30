@@ -27,7 +27,7 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 To be continued...
 
 
-- [Appendix - Pixel Art Special Effects Gallery / Cheatsheet - Free Ideas & Recipes for Starting Your Own "Transformative" CryptoPunks Collection Today](A1_special_effects.md)
+- [Appendix - Pixel Art Special Effects Gallery / Cheatsheet - Free Ideas & Recipes for Starting Your Own CryptoPunks Collection Today](A1_special_effects.md)
 
 
 

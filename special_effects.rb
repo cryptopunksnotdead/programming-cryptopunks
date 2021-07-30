@@ -25,6 +25,15 @@ ids.each do |id|
   ## 8bit-color palette
   punk.grayscale.save( "./i/punk-#{name}_bw.png" )
   punk.grayscale.zoom(4).save( "./i/punk-#{name}_bwx4.png" )
+
+  punk.change_palette8bit( Palette8bit::SEPIA ).save( "./i/punk-#{name}_sepia.png" )
+  punk.change_palette8bit( Palette8bit::SEPIA ).zoom( 4 ).save( "./i/punk-#{name}_sepia4x.png" )
+
+  punk.change_palette8bit( Palette8bit::BLUE ).save( "./i/punk-#{name}_blue.png" )
+  punk.change_palette8bit( Palette8bit::BLUE ).zoom( 4 ).save( "./i/punk-#{name}_blue4x.png" )
+
+  punk.change_palette8bit( Palette8bit::FALSE ).save( "./i/punk-#{name}_false.png" )
+  punk.change_palette8bit( Palette8bit::FALSE ).zoom( 4 ).save( "./i/punk-#{name}_false4x.png" )
 end
 
 
