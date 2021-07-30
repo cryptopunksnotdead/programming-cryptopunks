@@ -68,6 +68,7 @@ more scientifically known as 8-bit grayscale, that is,
 starting with black (`0x000000`)
 and ending with white (`0xffffff`):
 
+![](i/palette_grayscale.png)
 
 ``` ruby
 punk.grayscale
@@ -86,6 +87,8 @@ punk.grayscale
 
 Let's change the color palette to ye olde' sepia:
 
+![](i/palette_sepia.png)
+
 ``` ruby
 punk.change_palette8bit( Palette8bit::SEPIA )
 ```
@@ -102,6 +105,8 @@ punk.change_palette8bit( Palette8bit::SEPIA )
  §
 
 Let's change the color palette to a blue theme:
+
+![](i/palette_blue.png)
 
 ``` ruby
 punk.change_palette8bit( Palette8bit::BLUE )
@@ -120,6 +125,8 @@ punk.change_palette8bit( Palette8bit::BLUE )
  §
 
 Let's change the color palette to the futuristic false series:
+
+![](i/palette_false.png)
 
 ``` ruby
 punk.change_palette8bit( Palette8bit::FALSE )
