@@ -24,9 +24,12 @@ by [Gerald Bauer](https://github.com/geraldb), et al
 - [7 Quick & Easy Hairstyles with Simple Instructions to Do in a Few Minutes - Trendy Ideas for Punkettes to Try in 2021 - Is Orange the New Black?](10_hair.md)
 
 
-
-
 To be continued...
+
+
+- [Appendix - Pixel Art Special Effects Gallery / Cheatsheet - Free Ideas & Recipes for Starting Your Own "Transformative" CryptoPunks Collection Today](A1_special_effects.md)
+
+
 
 
 
