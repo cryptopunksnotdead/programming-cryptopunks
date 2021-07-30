@@ -208,7 +208,7 @@ punk.sketch( 12, line: 3 )
 Let's change to LED lights using LED - 8 pixels, spacing - 2 pixels (the default):
 
 ``` ruby
-note: change black pixels (0xff) to a (lighter) shade of black e.g. raisin black (0x242124ff)
+# note: change black pixels (0xff) to a (lighter) shade of black e.g. raisin black (0x242124ff)
 punk = punk.change_colors( { 0xff => 0x242124ff } )
 
 punk.led( 8, spacing: 2 )
