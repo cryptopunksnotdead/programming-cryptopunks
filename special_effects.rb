@@ -20,6 +20,12 @@ ids.each do |id|
 
   ## mirror - from right-facing to left-facing
   punk.mirror.save( "./i/phunk-#{name}.png" )
+  punk.mirror.zoom(4).save( "./i/phunk-#{name}x4.png" )
+
+  ## 8bit-color palette
+  punk.grayscale.save( "./i/punk-#{name}_bw.png" )
+  punk.grayscale.zoom(4).save( "./i/punk-#{name}_bwx4.png" )
 end
+
 
 

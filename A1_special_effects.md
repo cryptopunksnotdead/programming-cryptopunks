@@ -27,7 +27,7 @@ punk.zoom(4)
 ![](i/punk-0172x4.png)
 ![](i/punk-2964x4.png)
 
- o o o
+ §
 
 8x:
 
@@ -35,10 +35,10 @@ punk.zoom(4)
 punk.zoom(8)
 ```
 
-![](i/phunk-3100x8.png)
-![](i/phunk-3393x8.png)
-![](i/phunk-0172x8.png)
-![](i/phunk-2964x8.png)
+![](i/punk-3100x8.png)
+![](i/punk-3393x8.png)
+![](i/punk-0172x8.png)
+![](i/punk-2964x8.png)
 
 
 
@@ -51,10 +51,42 @@ Let's flip the pixels horizontally.
 ``` ruby
 punk.mirror
 ```
+
 ![](i/phunk-3100.png)
 ![](i/phunk-3393.png)
 ![](i/phunk-0172.png)
 ![](i/phunk-2964.png)
+
+![](i/phunk-3100x4.png)
+![](i/phunk-3393x4.png)
+![](i/phunk-0172x4.png)
+![](i/phunk-2964x4.png)
+
+
+
+## 8-Bit Color Palette - Greyscale, Sepia, Blue, Futuristic & More
+
+Let's change the color to black & white or
+more scientifically known as 8-bit grayscale, that is,
+256 shades of gray
+starting with black (`0x000000`)
+and ending with white (`0xffffff`).
+
+
+``` ruby
+punk.grayscale
+```
+
+![](i/punk-3100_bw.png)
+![](i/punk-3393_bw.png)
+![](i/punk-0172_bw.png)
+![](i/punk-2964_bw.png)
+
+![](i/punk-3100_bwx4.png)
+![](i/punk-3393_bwx4.png)
+![](i/punk-0172_bwx4.png)
+![](i/punk-2964_bwx4.png)
+
 
 
 
@@ -74,7 +106,7 @@ punk.sketch( 4 )
 ![](i/punk-0172_sketch4x.png)
 ![](i/punk-2964_sketch4x.png)
 
-  o o o
+ §
 
 
 Sketch zoom - 4 pixels, line (brush) - 4 pixels:
@@ -88,7 +120,7 @@ punk.sketch( 4, line: 4 )
 ![](i/punk-0172_sketch4x4.png)
 ![](i/punk-2964_sketch4x4.png)
 
-  o o o
+ §
 
 
 Sketch zoom - 8 pixels, line (brush) - 2 pixels:
@@ -102,7 +134,7 @@ punk.sketch( 8, line: 2 )
 ![](i/punk-0172_sketch8x2.png)
 ![](i/punk-2964_sketch8x2.png)
 
- o o o
+ §
 
 
 Sketch zoom - 12 pixels, line (brush) - 3 pixels:
