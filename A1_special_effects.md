@@ -14,9 +14,7 @@ the pixel art machinery.
 
 ## Zoom
 
-Let's change the zoom factor.
-
-4x:
+Let's change the zoom factor to 4x:
 
 ``` ruby
 punk.zoom(4)
@@ -44,7 +42,7 @@ punk.zoom(8)
 
 ## Mirror - From Right-Facing to Left-Facing
 
-Let's flip the pixels horizontally.
+Let's flip the pixels horizontally:
 
 
 ``` ruby
@@ -54,7 +52,7 @@ punk.mirror
 ![](i/phunk-3100.png)
 ![](i/phunk-3393.png)
 ![](i/phunk-0172.png)
-![](i/phunk-2964.png)  4x:
+![](i/phunk-2964.png)  - 4x:
 ![](i/phunk-3100x4.png)
 ![](i/phunk-3393x4.png)
 ![](i/phunk-0172x4.png)
@@ -78,7 +76,7 @@ punk.grayscale
 ![](i/punk-3100_bw.png)
 ![](i/punk-3393_bw.png)
 ![](i/punk-0172_bw.png)
-![](i/punk-2964_bw.png)  4x:
+![](i/punk-2964_bw.png)  - 4x:
 ![](i/punk-3100_bwx4.png)
 ![](i/punk-3393_bwx4.png)
 ![](i/punk-0172_bwx4.png)
@@ -95,7 +93,7 @@ punk.change_palette8bit( Palette8bit::SEPIA )
 ![](i/punk-3100_sepia.png)
 ![](i/punk-3393_sepia.png)
 ![](i/punk-0172_sepia.png)
-![](i/punk-2964_sepia.png)  4x:
+![](i/punk-2964_sepia.png)  - 4x:
 ![](i/punk-3100_sepiax4.png)
 ![](i/punk-3393_sepiax4.png)
 ![](i/punk-0172_sepiax4.png)
@@ -112,7 +110,7 @@ punk.change_palette8bit( Palette8bit::BLUE )
 ![](i/punk-3100_blue.png)
 ![](i/punk-3393_blue.png)
 ![](i/punk-0172_blue.png)
-![](i/punk-2964_blue.png)  4x:
+![](i/punk-2964_blue.png)  - 4x:
 ![](i/punk-3100_bluex4.png)
 ![](i/punk-3393_bluex4.png)
 ![](i/punk-0172_bluex4.png)
@@ -130,7 +128,7 @@ punk.change_palette8bit( Palette8bit::FALSE )
 ![](i/punk-3100_false.png)
 ![](i/punk-3393_false.png)
 ![](i/punk-0172_false.png)
-![](i/punk-2964_false.png)  4x:
+![](i/punk-2964_false.png)  - 4x:
 ![](i/punk-3100_falsex4.png)
 ![](i/punk-3393_falsex4.png)
 ![](i/punk-0172_falsex4.png)
@@ -142,9 +140,8 @@ punk.change_palette8bit( Palette8bit::FALSE )
 
 ## Black & White (Pencil Drawing) Sketch
 
-Let's change to a black & white (pecil drawing) sketch.
-
-Sketch zoom - 4 pixels, line (brush) - 1 pixel   (the default):
+Let's change to a black & white (pecil drawing) sketch using a
+sketch zoom - 4 pixels, line (brush) - 1 pixel  (the default):
 
 ``` ruby
 punk.sketch( 4 )
@@ -199,8 +196,51 @@ punk.sketch( 12, line: 3 )
 
 
 
+## LED Light
+
+Let's change to LED lights using LED - 8 pixels, spacing - 2 pixels (the default):
+
+``` ruby
+punk = punk.change_colors( { 0xff => 0x242124ff } )
+punk.led( 8, spacing: 2 )
+```
+
+![](i/punk-3100_led8x.png)
+![](i/punk-3393_led8x.png)
+![](i/punk-0172_led8x.png)
+![](i/punk-2964_led8x.png)
+
+ §
 
 
-And some more.
+LED zoom - 16 pixels, spacing - 3 pixels:
 
+``` ruby
+punk.led( 16, spacing: 3 )
+```
+
+![](i/punk-3100_led16x.png)
+![](i/punk-3393_led16x.png)
+![](i/punk-0172_led16x.png)
+![](i/punk-2964_led16x.png)
+
+ §
+
+
+LED zoom - 16 pixels, spacing - 8 pixels, round corner turned on:
+
+``` ruby
+punk.led( 16, spacing: 8, round_corner: true )
+```
+
+![](i/punk-3100_led16xr.png)
+![](i/punk-3393_led16xr.png)
+![](i/punk-0172_led16xr.png)
+![](i/punk-2964_led16xr.png)
+
+ §
+
+
+
+And so on. Now it's up to you. Yes, you can.
 
