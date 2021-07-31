@@ -28,8 +28,7 @@ To be continued...
 
 
 - [Appendix - Pixel Art Special Effects Gallery / Cheatsheet - Free Ideas & Recipes for Starting Your Own CryptoPunks Collection Today](A1_special_effects.md)
-
-
+- [Appendix - Troubleshooting](A2_troubleshooting.md)
 
 
 
