@@ -1,4 +1,9 @@
 
+Note: See [**/punks.whitelabel**](https://github.com/cryptopunksnotdead/punks.whitelabel) - 
+The Free White Label Punk Quick Starter Edition - that lets you (re)create from zero / scratch a pixel-perfect copy of the 10 000 cryptopunks collection (anno 2017).
+
+---
+
 Crypto Collectibles Series -
 [Cats](https://github.com/cryptocopycats/programming-mooncats) ·
 [Kitties](https://github.com/cryptocopycats/programming-cryptokitties) ·
