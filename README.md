@@ -1,6 +1,6 @@
 
 Note: See [**/punks.whitelabel**](https://github.com/cryptopunksnotdead/punks.whitelabel) - 
-The Free White Label Punk Quick Starter Edition - that lets you (re)create from zero / scratch a pixel-perfect copy of the 10 000 cryptopunks collection (anno 2017).
+The Free White Label Punk Quick Starter Edition - if you want to (re)create from zero / scratch a pixel-perfect copy of the 10 000 cryptopunks collection (anno 2017).
 
 ---
 
