@@ -1,7 +1,7 @@
 # Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers
 
 
-The bad news - the formula for the original 10 000 algorithmically generated 24×24 CryptoPunks by LavraLabs is a secret
+The bad news - the formula for the original 10 000 algorithmically generated 24×24 CryptoPunks by LarvaLabs is a secret
 (and not included in the published open source code).
 
 The good news - the "high-definition" 56×56 CryptoPunks remake
