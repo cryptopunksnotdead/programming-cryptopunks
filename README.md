@@ -40,7 +40,10 @@ To be continued...
 
 ## Questions? Comments?
 
-Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
+Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.  
+See [(Pixel) Punk Frequently Asked Questions (F.A.Q.) and Answers](https://github.com/cryptopunksnotdead/faq) 
+for an all-in-one page collection of questions and answers.
+
 
 
 ## License
