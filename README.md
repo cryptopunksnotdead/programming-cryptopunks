@@ -1,6 +1,6 @@
 
 Note: See [**/punks.whitelabel**](https://github.com/cryptopunksnotdead/punks.whitelabel) - 
-The Free White Label Punk Quick Starter Edition - if you want to (re)create from zero / scratch a pixel-perfect copy of the 10 000 cryptopunks collection (anno 2017).
+The Free White Label Punk Quick Starter Edition - if you want to (re)create from zero / scratch a pixel-perfect copy of the 10 000 Matt & John's® punks collection (anno 2017).
 
 ---
 
@@ -12,14 +12,14 @@ Crypto Collectibles Series -
 
 
 
-# Programming CryptoPunks & Copypastas Step-by-Step Book / Guide
+# Programming Punks & Copypastas Step-by-Step Book / Guide
 
 _Inside Unique Pixel Art on the Blockchain..._
 
 by [Gerald Bauer](https://github.com/geraldb), et al
 
 - [Do-It-Yourself (DIY) - Yes, You Can! - Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](01_mint.md)
-- [Statistics, Statistics, Statistics - Calculate Rarity & Popularity By Type, By Accessories, & More - Inside the 10 000 Punk Population](02_attributes.md)
+- [Statistics, Statistics, Statistics - Calculate Rarity & Popularity By Type, By Accessories, & More - Inside the 10 000 Matt & John's® Punk Population](02_attributes.md)
 - [Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers](03_generate.md)
 - [10 000 More Punks - Inside the Punk Art Machinery (Continued) - How To Generate Punks, Algorithmically - Paint by Numbers - A New Punk Series](04_generate_ii.md)
 - [Nine Super Rare Aliens (in Cyan)? Start the Alien Invasion from Mars - Mint Little 24×24 Extraterrestrials (E.T.s) in Green, Chartreuse, Yellow, Orange, Red, Fuchsia, or Magenta](05_alien_invasion.md)
@@ -50,7 +50,7 @@ for a page of questions and answers collected over the last months and years.
 
 ![](https://publicdomainworks.github.io/buttons/zero88x31.png)
 
-The Programming CryptoPunks & Copypastas Step-by-Step book / guide
+The Programming Punks & Copypastas Step-by-Step book / guide
 is dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
