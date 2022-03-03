@@ -12,9 +12,9 @@ Crypto Collectibles Series -
 
 
 
-# Programming Punks & Copypastas Step-by-Step Book / Guide
+# Programming Pixel Punk Profile Pictures & (Generative) Art - Step-by-Step Book / Guide
 
-_Inside Unique Pixel Art on the Blockchain..._
+_Inside Unique 24×24 Pixel Art on the Blockchain..._
 
 by [Gerald Bauer](https://github.com/geraldb), et al
 
@@ -50,7 +50,7 @@ for a page of questions and answers collected over the last months and years.
 
 ![](https://publicdomainworks.github.io/buttons/zero88x31.png)
 
-The Programming Punks & Copypastas Step-by-Step book / guide
+The Programming Punk Step-by-Step book / guide
 is dedicated to the public domain.
 Use it as you please with no restrictions whatsoever.
 
