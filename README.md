@@ -40,7 +40,7 @@ To be continued...
 
 ## Questions? Comments?
 
-Yes, you can. Post them on the [CryptoPunksDev reddit](https://old.reddit.com/r/CryptoPunksDev). Thanks.
+Yes, you can. Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
 See [(Pixel) Punk Frequently Asked Questions (F.A.Q.) and Answers](https://github.com/cryptopunksnotdead/faq) 
 for a page of questions and answers collected over the last months and years.
 
