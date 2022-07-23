@@ -73,8 +73,10 @@ The bored ape (tiles) in the composite image are in 50×50px. To get to 800×800
 ``` ruby
 require 'pixelart'
 
-apes = ImageComposite.read( "basicboredapes50x50.png", width: 50, height: 50 )  ## read in ape composite
+# step 1: read in all-in-one ape image composite
+apes = ImageComposite.read( "basicboredapes50x50.png", width: 50, height: 50 )
 
+# step 2: loop over all apes and save one-by-one w/ 16x zoom
 apes.each_with_index do |ape,i|
   ape.zoom(16).save( "ape-#{i}.png")
 end
