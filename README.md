@@ -18,11 +18,11 @@ _Inside Unique 24×24 Pixel Art on the Blockchain..._
 
 by [Gerald Bauer](https://github.com/geraldb), et al
 
-- [Do-It-Yourself (DIY) - Yes, You Can! - Mint Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](01_mint.md)
+- [Do-It-Yourself (DIY) - Yes, You Can! - Rip & Save Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](01_rip.md)
 - [Statistics, Statistics, Statistics - Calculate Rarity & Popularity By Type, By Accessories, & More - Inside the Matt & John's® 10 000 Punks Population](02_attributes.md)
 - [Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers](03_generate.md)
 - [10 000 More Punks - Inside the Punk Art Machinery (Continued) - How To Generate Punks, Algorithmically - Paint by Numbers - A New Punk Series](04_generate_ii.md)
-- [Nine Super Rare Aliens (in Cyan)? Start the Alien Invasion from Mars - Mint Little 24×24 Extraterrestrials (E.T.s) in Green, Chartreuse, Yellow, Orange, Red, Fuchsia, or Magenta](05_alien_invasion.md)
+- [Nine Super Rare Aliens (in Cyan)? Start the Alien Invasion from Mars - Generate Little 24×24 Extraterrestrials (E.T.s) in Green, Chartreuse, Yellow, Orange, Red, Fuchsia, or Magenta](05_alien_invasion.md)
 - [Christie's Nine Colored in Black 'n' White, Ye Olde' Sepia Tone, Blue or Futuristic False 8-Bit Color Palette - Free Downloads - Right-Click and Save Image](06_palette_8bit.md)
 - [United Colors of Humanity - Light, Lighter, Dark, Darker - How To Change Skin Tones](07_humans.md)
 - [Revolutionize the Digital Art Market - Fractionalize The World's First Billion Dollar Pixel Image - Build Your Own All-In-One Punk Composites - Curate Your Own Exclusive Collections Ready to Sell Off to New Owners](08_composite.md)
@@ -254,13 +254,16 @@ comments_url: https://old.reddit.com/r/CryptoPunksDev/comments/ppb0fh/public_ser
 
 ## Questions? Comments?
 
-Yes, you can. Post them on the [D.I.Y. Punk (Pixel) Art reddit](https://old.reddit.com/r/DIYPunkArt). Thanks.
+Join us in the [Punk Art discord (chat server)]( https://discord.gg/FE3HeXNKRa). Yes you can.
+Your questions and commetary welcome.
+
+
+Or post them over at the [Help & Support](https://github.com/geraldb/help) page. Thanks.
+
 
 
 
 ## License
-
-![](https://publicdomainworks.github.io/buttons/zero88x31.png)
 
 The Programming Punk Step-by-Step book / guide
 is dedicated to the public domain.

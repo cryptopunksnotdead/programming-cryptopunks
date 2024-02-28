@@ -1,11 +1,11 @@
 ###
 #  to run use:
-#     ruby ./mint.rb
+#     ruby ./rip.rb
 
 
-require 'cryptopunks'
+require 'pixelart'
 
-punks = Punks::Image::Composite.read( './punks.png' )
+punks = ImageComposite.read( './punks.png' )
 
 
 
@@ -22,6 +22,7 @@ punks[8219].zoom(4).save( './i/punk-8219x4.png')
 punks[0].zoom(8).save( './i/punk-0000x8.png' )    # or use x8
 punks[2890].zoom(8).save( './i/punk-2890x8.png' )
 punks[8219].zoom(8).save( './i/punk-8219x8.png')
+
 
 
 
@@ -44,7 +45,7 @@ punks[757].save( './i/punk-0757.png' )
 
 
 
-punks = Punks::Image::Composite.read( './i/more-punks-1.png' )
+punks = ImageComposite.read( './i/more-punks-1.png' )
 
 punks[0].save('./i/punk-10000.png')
 punks[18].save('./i/punk-10018.png')
@@ -57,7 +58,7 @@ punks[40].zoom(4).save('./i/punk-10040x4.png')
 punks[88].zoom(4).save('./i/punk-10088x4.png')
 
 
-punks = Punks::Image::Composite.read( './i/more-punks-2.png' )
+punks = ImageComposite.read( './i/more-punks-2.png' )
 
 punks[0].save('./i/punk-10100.png')
 punks[79].save('./i/punk-10179.png')
