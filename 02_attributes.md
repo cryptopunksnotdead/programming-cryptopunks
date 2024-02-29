@@ -13,14 +13,9 @@
 
 Crypto collectibles are all about rarity - the more rare the type or accessories of a punk the more valuable the 24x24 pixel art in theory.
 
-Let's use the [`cryptopunks.csv` dataset](https://github.com/cryptopunksnotdead/punks)
+Let's use the [`cryptopunks.csv` (classic) dataset](https://github.com/cryptopunksnotdead/punks)
 in comma-separated values (CSV) format
-that houses in blocks of a thousand punks each
-(e.g.
-`0-999.csv`,
-`1000-1999.csv`,
-`2000-2999.csv`, and so on)
-all the 10 000 punks for more insight into the population.
+that houses all the 10 000 punks for more insight into the population.
 
 
 The data records for punks
@@ -43,14 +38,14 @@ Let's read in the dataset:
 
 
 ``` ruby
-require 'cryptopunks'
+require 'punks'
 
-punks = Punks::Dataset.read( './punks/*.csv' )
+punks = Punks::Dataset.read( './cryptopunks-classic.csv' )
 punks.size
 #=> 10000
 ```
 
-Let the cryptopunks helper do the heavy lifting :-).
+Let the punk dataset helper do the heavy lifting :-).
 As a bonus all punks get wrapped into easy-to-access structs.
 Example:
 
@@ -58,15 +53,15 @@ Example:
 punk = punks[0]
 punk.id
 #=> 0
-punk.type.name
+punk.type
 #=> "Female"
 punk.accessories.size
 #=> 3
-punk.accessories[0].name
+punk.accessories[0]
 #=> "Green Eye Shadow"
-punk.accessories[1].name
+punk.accessories[1]
 #=> "Earring"
-punk.accessories[2].name
+punk.accessories[2]
 #=> "Blonde Bob"
 ```
 
@@ -78,7 +73,7 @@ Let's calculate popularity & rarity by punk types:
 ``` ruby
 counter = Hash.new(0)      # a hash (table) - let's (auto-)default to 0 for values
 punks.each do |punk|
-  counter[ punk.type.name ] += 1
+  counter[ punk.type ] += 1
 end
 
 counter.size
@@ -129,12 +124,12 @@ let's break out the count by punk type:
 counter = {}
 punks.each do |punk|
   punk.accessories.each do |acc|
-    rec = counter[ acc.name ] ||= { count: 0,
-                                    by_type: Hash.new(0)
-                                  }
+    rec = counter[ acc ] ||= { count: 0,
+                               by_type: Hash.new(0)
+                             }
 
     rec[ :count ] += 1
-    rec[ :by_type ][ punk.type.name ] += 1
+    rec[ :by_type ][ punk.type ] += 1
   end
 end
 
@@ -323,6 +318,8 @@ stats on the 10 000 punk population.
 
 
 
+<!--
+
 **REMINDER: In the digitial world there are no originals! Every copy is a original and you cannot tell the difference
 (all 0s and 1s are the same). And, yes, you can always make as many (free) copies as you like (in a free world).
 Claiming that you can protect your exclusive rights to pixels because the record of ownership
@@ -331,5 +328,9 @@ Without laws and governments that help you with your rights - the claim is just
 a meaningless series of 0s and 1s.  PS: Do you really own CryptoPunks? (Spoiler: No.)
 Check your license agreement with LarvaLabs - the pixel art license seller - and do NOT get fooled by the record of ownership.
 You are a licensee and NOT an owner.**
+
+
+-->
+
 
 

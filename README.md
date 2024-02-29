@@ -18,7 +18,7 @@ _Inside Unique 24×24 Pixel Art on the Blockchain..._
 
 by [Gerald Bauer](https://github.com/geraldb), et al
 
-- [Do-It-Yourself (DIY) - Yes, You Can! - Rip & Save Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](01_rip.md)
+- [Do-It-Yourself (DIY) - Yes, You Can! - Crop & Save Your Own Punks in Original 24x24 Pixel Format or With 2X / 4X / 8X Zoom](01_crop.md)
 - [Statistics, Statistics, Statistics - Calculate Rarity & Popularity By Type, By Accessories, & More - Inside the Matt & John's® 10 000 Punks Population](02_attributes.md)
 - [Inside the Punk Art Machinery - How To Generate 10 000 Punks (and Punkettes), Algorithmically - Paint by Numbers](03_generate.md)
 - [10 000 More Punks - Inside the Punk Art Machinery (Continued) - How To Generate Punks, Algorithmically - Paint by Numbers - A New Punk Series](04_generate_ii.md)

@@ -1,6 +1,6 @@
 ###
 #  to run use:
-#     ruby ./rip.rb
+#     ruby ./crop.rb
 
 
 require 'pixelart'

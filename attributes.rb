@@ -4,28 +4,27 @@
 
 
 
-require 'cryptopunks'
+require 'punks'
 
-punks = Punks::Dataset.read( './punks/*.csv' )
-punks.size
+punks = Punks::Dataset.read( './cryptopunks-classic.csv' )
+pp punks.size
 #=> 10000
 
 
 
 punk = punks[0]
-punk.id
+pp punk.id
 #=> 0
-punk.type.name
+pp punk.type
 #=> "Female"
-punk.accessories.size
+pp punk.accessories.size
 #=> 3
-punk.accessories[0].name
+pp punk.accessories[0]
 #=> "Green Eye Shadow"
-punk.accessories[1].name
+pp punk.accessories[1]
 #=> "Earring"
-punk.accessories[2].name
+pp punk.accessories[2]
 #=> "Blonde Bob"
-
 
 
 
@@ -34,12 +33,12 @@ punk.accessories[2].name
 
 counter = Hash.new(0)      # a hash (table) - let's (auto-)default to 0 for values
 punks.each do |punk|
-  counter[ punk.type.name ] += 1
+  counter[ punk.type ] += 1
 end
 
-counter.size
+pp counter.size
 #=> 5
-counter
+pp counter
 #=> {"Female"=>3840, "Male"=>6039, "Zombie"=>88, "Ape"=>24, "Alien"=>9}
 
 
@@ -61,18 +60,18 @@ end
 counter = {}
 punks.each do |punk|
   punk.accessories.each do |acc|
-    rec = counter[ acc.name ] ||= { count: 0,
+    rec = counter[ acc ] ||= { count: 0,
                                     by_type: Hash.new(0)
                                   }
 
     rec[ :count ] += 1
-    rec[ :by_type ][ punk.type.name ] += 1
+    rec[ :by_type ][ punk.type ] += 1
   end
 end
 
-counter.size
+pp counter.size
 #=> 87
-counter
+pp counter
 #=> {"Green Eye Shadow"=>{:count=>271,
 #                         :by_type=>{"Female"=>271}},
 #    "Earring"=>{:count=>2459,
@@ -109,9 +108,9 @@ punks.each do |punk|
   counter[ punk.accessories.size ] += 1
 end
 
-counter.size
+pp counter.size
 #=> 8
-counter
+pp counter
 #=> {"3"=>4501, "2"=>3560, "1"=>333, "4"=>1420, "5"=>166, "0"=>8, "6"=>11, "7"=>1}
 
 

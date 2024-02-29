@@ -1,6 +1,10 @@
 ###
-#  don't check in punks.png for testing
+#  don't check in punks.png  and cryptpunks.csv, cryptopunks-classic.csv 
+#    for testing
 punks.png
+cryptopunks-classic.csv
+cryptopunks.csv
+
 
 ###
 #  skip temporary files for testing only
