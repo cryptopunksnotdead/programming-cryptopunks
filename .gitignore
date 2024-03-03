@@ -10,3 +10,9 @@ cryptopunks.csv
 #  skip temporary files for testing only
 /tmp/
 
+
+###
+#  add build (output) directory
+/build
+
+
